@@ -1,19 +1,10 @@
 export default {
   global: {
     componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    descripcionCurso:
+      'Este componente formativo describe la ruta que deben seguir las empresas del sector salud, para lograr sus objetivos misionales y estratégicos; al mismo tiempo que se realizan revisiones periódicas para ajustar los procesos misionales de acuerdo con los cambios del entorno y al plan de gestión de la entidad.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -165,115 +156,155 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Drovetta, S.M. (2015). Dirección de la Salud. Ediciones Macchi. ',
+      link:
+        'https://factorialhr.es/blog/que-es-organigrama-empresa-tipos-plantillas/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Sy Corvo, Helmut. (2018). Reingeniería organizacional: proceso y ejemplos. Lifeder. ',
+      link: 'https://www.lifeder.com/reingenieria-organizacional/.',
+    },
+    {
+      referencia:
+        'Millán, J. J. G., González, J., Penagos, C. O. P., & Parra, O. (2008). Caracterización de la cultura organizacional, clima organizacional, motivación, liderazgo y satisfacción de las pequeñas empresas del valle de sugamuxi y su incidencia en el espíritu empresarial. ',
+      link:
+        'https://login.bdigital.SENA.edu.co/login?url=https://www-proquest-com.bdigital.SENA.edu.co/scholarly-journals/caracterización-de-la-cultura-organizacional/docview/1435585378/se-2?accountid=31491',
+    },
+    {
+      referencia:
+        'Pardo Álvarez, J. (2012). Configuración Y Usos De Un Mapa De Procesos. AENOR - Asociación Española De Normalización Y Certificación',
+    },
+    {
+      referencia:
+        'Pereira Palomo, C. (2019). Control Interno En Las Empresas. ',
+      link: 'https://www.aiteco.com/manual-de-funciones/',
+    },
+    {
+      referencia:
+        'Departamento Administrativo de la Función Pública.  (2007). Sistemas de estímulos. ',
+      link:
+        'https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/Sistema%20de%20Estimulos.pdf',
+    },
+    {
+      referencia:
+        'Salazar Estrada, J., Guerrero Pupo, J., Machado Rodríguez, Y., y Cañedo Andalia, R. (2009). Climate and organizational culture: two essential components in the working productivity. ACIMED v.20 n.4. ',
+      link:
+        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1024-94352009001000004&lng=es&tlng=en',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Empatía',
+      significado:
+        'capacidad de tomar el lugar de la otra persona y comprender lo que está sintiendo y pensando, sin expresarlo directamente; la capacidad de comunicarse con los demás de manera respetuosa y sus circunstancias únicas. La capacidad de comprender, obtener sus experiencias, sentimientos y opiniones.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Estrategia',
+      significado:
+        'plan maestro para lograr una o más metas comunes en circunstancias inciertas.',
+    },
+    {
+      termino: 'Gestión',
+      significado:
+        'es la administración de recursos para ejecutar un proceso con responsabilidad individual o corporativa. Se refiere directamente a la coordinación de actividades y talento humano.',
+    },
+    {
+      termino: 'Líder',
+      significado:
+        'persona que gestiona un equipo o grupo de personas en particular, que influye, motiva y trabaja con entusiasmo para todos los miembros del equipo. Se concentra en sus metas y objetivos, diariamente.',
+    },
+    {
+      termino: 'Misión',
+      significado: 'motivo o razón para la empresa.',
+    },
+    {
+      termino: 'Objetivo',
+      significado:
+        'resultados deseados que se esperan alcanzar con la ejecución de las actividades que integran un proyecto, empresa o entidad. Medibles o cuantificables. Realista. Limitados en el tiempo.',
+    },
+    {
+      termino: 'Portafolio',
+      significado:
+        'conjunto de documentos que pueden mostrar la totalidad, o diferentes aspectos de un individuo u organización, cuidadosamente seleccionado y organizado.',
+    },
+    {
+      termino: 'Postura',
+      significado:
+        'actitud o manera de pensar sobre alguien o algo. Posición del cuerpo ante una actividad determinada.',
+    },
+    {
+      termino: 'Ruta',
+      significado:
+        'camino, carretera o vía que permite transitar desde un lugar hacia otro. Dirección que se toma para el logro de un propósito.',
+    },
+    {
+      termino: 'Táctica',
+      significado: 'método empleado con el fin de obtener un objetivo.',
+    },
+    {
+      termino: 'Visión',
+      significado:
+        'descripción de una expectativa ideal de lo que se espera en una empresa.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
-    },
-  ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-      ],
+      texto:
+        'Servicio al cliente	Grupo Proikos. (2015). Atención y Servicio al Cliente [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=5xGoNUkHpZQ',
     },
     {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-      ],
+      texto:
+        'Servicio al cliente	Julca, S. (2016). Protocolos de atención al cliente [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=egkOLUiEdx4',
     },
     {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-      ],
+      texto:
+        'Servicio al cliente	González, J. (2013). Protocolo servicio al cliente [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ejD34cB36aQ',
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-      ],
+      texto:
+        'Comunicación 	Cultura 52. (2016) ¿Qué es Comunicación Asertiva? [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=eF-UJWjGSX8',
+    },
+    {
+      texto:
+        'Comunicación	Víctor Toscano TV. (2010). 7 claves para comunicarte mejor | comunicación efectiva y técnicas de oratoria para hablar bien [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6tGA8RDW-Z0',
+    },
+    {
+      texto:
+        'Servicio al cliente	Highley, C. (2018). La cortesía telefónica... El arte de escuchar [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=BDamU19Cvaw',
+    },
+    {
+      texto:
+        'Servicio al cliente	Jaime, D. (2013). Tipos de clientes [video]. Youtube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=hixQG0y7nuI',
+    },
+    {
+      texto:
+        'Principios éticos y bioéticos en la prestación del servicio	PAHO TV. (2015). La calidad de atención en los servicios de salud [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=UQ4wuzF5eNY',
+    },
+    {
+      texto:
+        'Principios éticos y bioéticos en la prestación del servicio	El Juego Interior. (2017) Proactivo vs Reactivo [video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=_DnY90zXLBk',
     },
   ],
   creditosAdicionales: {
