@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -17,11 +17,20 @@
         .row.justify-content-around.align-items-center.mb-3
           .cajon.color-secundario.p-4.mb-4.fond1.px-4
             p Para cumplir con este objetivo se estudiará, en el componente formativo, qué es la plataforma estratégica de la Institución, su organigrama, mapa de procesos, la matriz DOFA, el reglamento, clima organizacional, portafolio de servicios y, no se puede dejar de lado un tema importante, el servicio al cliente y, por supuesto, los principios éticos y bioéticos en la prestación del servicio.
-          h4.text-center ¡Muchos éxitos en este proceso de aprendizaje!
+
+
       .col-lg-6.align-self-center
         figure.mb-5
           img(src="@/assets/tema1/img-intro.svg", alt="Imagen que acompaña", style='width:664px;').mx-auto
-    
+
+    .row.justify-content-center.align-items-center.mb-5
+      figure(data-aos="flip-up")
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.align-items-center.mb-5
+      h4.text-center ¡Muchos éxitos en este proceso de aprendizaje!
+
     
 </template>
 

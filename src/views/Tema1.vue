@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Plataforma estratégica de la Institución
@@ -21,46 +21,71 @@
           img(src="@/assets/tema1/img-1.svg")  
 
     p Dentro del proceso del planeamiento se cuenta con seis momentos clarísimos, que son los que se verán a continuación en la siguiente figura. 
-    p.text-small.r-n Momentos planeamiento
-  
+
+
     .col-11.col-lg-auto.justify-content-md-center.m-4.px-5
-        figure.mb-5
-          img(src="@/assets/tema1/img-2.svg")  
+      .titulo-sexto.color-acento-contenido.mb-3
+        h5 Figura 1
+        span Momentos planeamiento
+
+      figure.mb-5
+        img(src="@/assets/tema1/img-2.svg")
+
+      p.text-center.mb-5 Nota. SENA (2021).
 
     p.mb-5 Dentro de la #[strong planeación estratégica], se cuenta con #[strong dos acciones macro] que ayudan a llevar a cabo las actividades planeadas; estas acciones se pueden identificar, como se verá en el siguiente análisis en la figura:           
-     p.text-small.r-n Acciones estratégicas y acciones tácticas
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-11    
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2
+          span Acciones estratégicas y acciones tácticas
     
     .row.justify-content-around.mb-5
-      .row.col-12.justify-content-around
+      .row.col-12.justify-content-around.mb-5
         .col-lg-5.fond11.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-c.img-300(src="@/assets/tema1/img-3-.svg")
-          p.text-white Representa el pensamiento, la dirección a dónde se quiere llegar. Mira hacia fuera de la organización.
+            img.img-c.img-300(src="@/assets/tema1/img-3.svg")
+          p.text-white Representa el pensamiento, la dirección a dónde se quiere llegar.
+          p.text-white Mira hacia afuera de la organización.
                 
         .col-lg-5.fond11-2.p-5.mb-3.mx-0
           figure.mb-5
             img.img-c.img-300(src="@/assets/tema1/img-3--.svg")
-          p.mb-0.text-white Representa el aspecto operativo.
-          p.text-white Mira hacia dentro de la organización.
+          p.text-white Representa el aspecto operativo.
+          p.text-white Mira hacia adentro de la organización.
+
+      p.text-center Nota. SENA (2021).
 
 
 
-
-
-    p Acorde con la información anterior, se puede concluir que:#[strong  lo estratégico está ligado con la visión empresarial] y #[strong lo táctico se enlaza, directamente, con la misión empresarial]. En este sentido, es indispensable tener presente qué características debe cumplir cada una de estas acciones, para cumplir con un despliegue relativamente fácil, dentro de la organización.
+    p De acuerdo con la información anterior, se puede concluir que:#[strong  lo estratégico está ligado con la visión empresarial] y #[strong lo táctico se enlaza, directamente, con la misión empresarial]. En este sentido, es indispensable tener presente qué características debe cumplir cada una de estas acciones, para cumplir con un despliegue relativamente fácil, dentro de la organización.
     p Las siguientes imágenes nos exponen qué son la misión y la visión:
 
-    p.text-small.r-n Visión
-    .col-11.col-lg-auto.justify-content-md-center.px-5
+    .row.justify-content-center.align-items-center.my-4
+      .col-lg-11    
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 3
+          span Visión
+
+      .col-11.col-lg-auto.justify-content-md-center.px-5
         figure.mb-5
           img(src="@/assets/tema1/img-4.svg")   
-    p Aunque la visión está enmarcada en el futuro, se debe tener presente que no se debe perder de vista la realidad de lo externo; es decir, puede tener una dosis de fantasía y ambición, pero nunca desligarse de las condiciones tecnológicas, económicas y sociales, que pueden influir en el desarrollo de la misma, así como en la figura se observa.            
-    p.text-small.r-n Misión
-    .col-11.col-lg-auto.justify-content-md-center.px-5
-        figure.mb-5
-          img(src="@/assets/tema1/img-5.svg")  
 
-    br
+      p.text-center.mb-5 Nota. SENA (2021).
+
+    p Aunque la visión está enmarcada en el futuro, se debe tener presente que no se debe perder de vista la realidad de lo externo; es decir, puede tener una dosis de fantasía y ambición, pero nunca desligarse de las condiciones tecnológicas, económicas y sociales, que pueden influir en el desarrollo de la misma, así como en la figura se observa.            
+  
+
+
+    .col-11.col-lg-auto.justify-content-md-center.px-5
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 4
+        span Misión
+      figure.mb-5
+        img(src="@/assets/tema1/img-5.svg")  
+
+      p.text-center.mb-5 Nota. SENA (2021).
     
     .row.justify-content-center.mb-5.fond2.align-self-center.mx-3
       .col-5
@@ -71,7 +96,11 @@
 
     p.mb-5 Los #[strong objetivos estratégicos] (metas estratégicas), deben cumplir con las siguientes características: 
 
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-11
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5
+          span Características de los objetivos estratégicos
 
     .row.col-lg-12.justify-content-md-center    
       .col-md-3.fond12.mb-3.mx-1.p-5
@@ -94,37 +123,50 @@
         figure
           img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-4.svg")
         p.text-center 
-          b Deben estar ligados a una línea de tiempo.
+          b Deben estar ligados a una línea de tiempo
       .col-md-3.fond12.p-5.mb-3.mx-1
         figure
           img.img-80.img-c.mb-3(src="@/assets/tema1/img-7-5.svg")
         p.text-center 
-          b Deben derivarse de las estrategias, de la misión y de la visión.
-               
+          b Deben derivarse de las estrategias, de la misión y de la visión
 
-    p Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación, se presenta una comparación entre ellos.
+    p.text-center.mb-5 Nota. SENA (2021).
+
+    p.my-4 Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación, se presenta una comparación entre ellos.
 
 
-    p.text-small.r-n Características de los objetivos estratégicos y específicos
     .col-11.col-lg-auto.justify-content-md-center.px-5
-        figure.mb-5
-          img(src="@/assets/tema1/img-8.svg")  
+      .titulo-sexto.color-acento-contenido.my-5
+        h5 Figura 6
+        span Características de los objetivos estratégicos y específicos
 
+      figure.mb-4
+        img(src="@/assets/tema1/img-8.svg")  
+
+      p.text-center.mb-5 Nota. SENA (2021).
 
     p Ahora se puede observar una descripción gráfica de los objetivos estratégicos y específicos en el marco de la misión y de la visión:
 
-    .row.justify-content-around.align-items-center.p-5.fond3.m-0  
-      p.text-small.r-n Estructura gráfica de los objetivos
-      .col-12.col-lg-auto.justify-content-md-center.mb-4  
+    .row.justify-content-around.align-items-center.p-5.fond3.m-0.mb-5
+      .titulo-sexto.color-acento-contenido.my-5
+        h5 Figura 7
+        span Estructura gráfica de los objetivos
+
+      .col-12.col-lg-auto.justify-content-md-center.mb-3  
         figure.mb-5
-          img(src="@/assets/tema1/img-9.svg")  
+          img(src="@/assets/tema1/img-9.svg")
+
+        p.text-center.mb-5 Nota. SENA (2021).
+
       .col-lg.justify-content-md-center.align-self-center
         p Para seguir el orden lógico propuesto en pro de alcanzar la visión y la misión, es necesario contar con los #[strong principios], #[strong valores] y #[strong políticas] que le darán sentido a la ejecución de las actividades y serán el norte para el comportamiento y las acciones éticas de la organización. En este sentido, a continuación en la tabla 1, se hará una descripción global de las mismas y la sinergia entre ellas, para ayudar en la comprensión y articulación con los conceptos de misión y visión.  
 
-
-    p.text-small.r-n Tabla 1. Descripción de las características de las políticas, principios y valores
+    .row.justify-content-center.align-items-center.mb-3
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 1
+        span Descripción de las características de las políticas, principios y valores
   
-    .tabla-a.color-secundario.mb-5 
+    .tabla-a.color-secundario.mb-3
       table
         thead
           
@@ -193,20 +235,35 @@
                 li Integridad
                 li Colaboración
                 li Lealtad 
-    .row.fond4.mb-5 
-      p.text-small.r-n Ejemplo de política general
+
+    p.text-center.mb-5 Nota. SENA (2021).
+
+    .row.justify-content-center.align-items-center.fond4.mb-5
+      .col-11
+        .titulo-sexto.color-acento-contenido.my-5
+          h5 Figura 8
+          span Ejemplo de política general
+
       .col-11.col-lg-auto.justify-content-md-center.px-5
-          figure.mb-5
-            img(src="@/assets/tema1/img-10-.svg")  
+        figure.mb-5
+          img(src="@/assets/tema1/img-10-.svg")  
+
+        p.text-center.mb-5 Nota. SENA (2021).
 
     p En el contexto general de la plataforma estratégica, se han podido visualizar todas las líneas que la componen y la interacción entre ellas. Para resumir esta sesión de plataforma estratégica, realizar una lectura del siguiente diagrama, en donde se detalla la conexión entre todos los elementos anteriormente vistos. 
 
-    p.text-small.r-n Articulación de la plataforma estratégica
+
+    p.text-small.r-n 
     .col-11.col-lg-auto.justify-content-md-center.px-5
+
+      .titulo-sexto.color-acento-contenido.my-5
+        h5 Figura 9
+        span Articulación de la plataforma estratégica
+      
       figure.mb-5
         img(src="@/assets/tema1/img-11.svg")  
 
-
+      p.text-center.mb-5 Nota. SENA (2021).
 
 
 

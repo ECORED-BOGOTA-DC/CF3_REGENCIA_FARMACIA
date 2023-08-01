@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
+    componenteFormativo: 'Direccionamiento estratégico',
     descripcionCurso:
       'Este componente formativo describe la ruta que deben seguir las empresas del sector salud, para lograr sus objetivos misionales y estratégicos; al mismo tiempo que se realizan revisiones periódicas para ajustar los procesos misionales de acuerdo con los cambios del entorno y al plan de gestión de la entidad.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
@@ -138,11 +138,6 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -305,6 +300,138 @@ export default {
         'Principios éticos y bioéticos en la prestación del servicio	El Juego Interior. (2017) Proactivo vs Reactivo [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=_DnY90zXLBk',
+    },
+  ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          cargo: 'Responsable del equipo',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
+      autores: [
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional - 2023',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Luz Adriana Cárdenas',
+          cargo: 'Experta temática - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Emilia Sarmiento Mora',
+          cargo: 'Experta temática - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Edwing Amir Moreno Moreno',
+          cargo: 'Experto temático - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora Instruccional - 2021',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica - 2021',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico - 2021',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional - 2021',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web - 2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          cargo: 'Desarrollador Fullstack - 2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisua',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y Producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
+    },
+    {
+      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      autores: [
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos educativos',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validadora de recursos educativos',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+      ],
     },
   ],
   creditosAdicionales: {

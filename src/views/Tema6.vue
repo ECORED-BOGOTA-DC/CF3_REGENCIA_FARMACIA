@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
       h1 Cultura y clima organizacionales
@@ -38,36 +38,39 @@
               img(src='@/assets/tema6/img-3.svg')
             .col-xl-6
               p Comprende el patrón general de conductas, creencias y valores compartidos por los miembros de una organización. Entre sus elementos se encuentran:
-              .ul.lista-ul--color.px-5
+              ul.lista-ul--color.px-5.fa-ul2
                 li.mb-0  
                   i.ii.fas.fa-atom  
-                  p.mb-2 Mayor identificación de los colaboradores con la empresa y su cargo.
+                  | Mayor identificación de los colaboradores con la empresa y su cargo.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Trabajo colaborativo.
+                  | Trabajo colaborativo.
                 li.mb-0  
                   i.ii.fas.fa-atom  
-                  p.mb-2 Integración de los procesos.
+                  | Integración de los procesos.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Promover el autocontrol y no la vigilancia hacia el colaborador.
+                  | Promover el autocontrol y no la vigilancia hacia el colaborador.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Fomentar la innovación y creatividad.
+                  | Fomentar la innovación y creatividad.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Recompensar por méritos y no favoritismos.
+                  | Recompensar por méritos y no favoritismos.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Tolerancia al conflicto.
+                  | Tolerancia al conflicto.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 La gerencia prioriza los fines o los medios para llegar a ellos.
+                  | La gerencia prioriza los fines o los medios para llegar a ellos.
                 li.mb-0   
                   i.ii.fas.fa-atom  
-                  p.mb-2 Enfoque de la gerencia hacia los asuntos internos o externos.
+                  | Enfoque de la gerencia hacia los asuntos internos o externos.
+
+
     separador
-    #t_6_1.titulo-segundo
+
+    #t_6_1.titulo-segundo.color-acento-contenido
       h2 6.1 Mecanismos de estímulo al colaborador
     p.mb-5 Un colaborador es un ser biopsicosocial; por lo tanto, su salud, bienestar y felicidad, hacen parte integral de la vida en el entorno laboral.       
     .row.justify-content-around.align-items-center
@@ -101,28 +104,41 @@
       .col-10    
         figure.p-5
           img.img-c(src='@/assets/tema6/img-6-.svg')  
+
+
     separador.mb-5
-    #t_6_2.titulo-segundo
+
+    #t_6_2.titulo-segundo.color-acento-contenido
       h2 6.2 Ingeniería organizacional
-    p Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
+    p.mb-5 Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
+    
     .row.justify-content-around.align-items-center.img-c
       .col-10.img-c
-        p.text-small.r-n Ingeniería organizacional
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 13
+          span Ingeniería organizacional
         figure.mb-5.img-500.img-c
-            img(src="@/assets/tema6/img-7-.svg")  
+          img(src="@/assets/tema6/img-7-.svg")  
+
+        p.text-center.mb-5 Nota. SENA (2021).
+
     separador
 
-    #t_6_3.titulo-segundo
-    h2 6.3 Portafolio de servicios
-    .row.justify-content-around.mt-5
+    #t_6_3.titulo-segundo.color-acento-contenido
 
+    h2 6.3 Portafolio de servicios
+    
+    .row.justify-content-around.mt-5
       .col-lg.justify-content-md-center      
         p Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
         figure.img-400
           img(src="@/assets/tema6/img-8.svg")  
+
     separador
-    #t_6_4.titulo-segundo
+
+    #t_6_4.titulo-segundo.color-acento-contenido
+
     h2 6.4 Comunicación
     p La comunicación es un medio donde interactúan dos o más personas, realizando intercambio de ideas, información y sentimientos. Está conformada por un emisor y un receptor, donde el emisor transmite el mensaje y el receptor lo interpreta.
     p Existe una serie de elementos que hacen posible este proceso:
@@ -204,17 +220,34 @@
           img(src="@/assets/tema6/img-12.svg", alt="alt").class          
         .crd_02__txt
           p.mb-0 #[strong Verbal:] permite expresar y transmitir un mensaje de manera:
-          p.mb-0 Oral.
-          p Escrita.
+          
+          ul.lista-ul--color.fa-ul2
+            li.mb-0  
+              i.ii.fas.fa-atom  
+              p.mb-0 Oral.
+            li.mb-0  
+              i.ii.fas.fa-atom  
+              p.mb-0 Escrita.
+
 
       .crd_02.mb-5
         .crd_02__icon
           img(src="@/assets/tema6/img-13.svg", alt="alt").class          
         .crd_02__txt
           p.mb-0 #[strong No verbal:] no se emiten palabras o mensajes. Es esencialmente el lenguaje corporal donde intervienen:
-          p.mb-0 El entorno.
-          p.mb-0 La postura corporal.
-          p.mb-0 La postura facial.
+          
+          ul.lista-ul--color.fa-ul2
+            li.mb-0  
+              i.ii.fas.fa-atom  
+              p.mb-0 El entorno.
+
+            li.mb-0  
+              i.ii.fas.fa-atom  
+              p.mb-0 La postura corporal.
+
+            li.mb-0  
+              i.ii.fas.fa-atom  
+              p.mb-0 La postura facial.
 
     p.mb-5 Retornando al ámbito organizacional, donde la comunicación puede ser transferida de diversas maneras, dependiendo de las necesidades de la empresa, la rapidez requerida, las responsabilidades asignadas y los que se encuentren comprometidos en la decisión que se comunica. Estas formas de comunicación pueden ser:
 

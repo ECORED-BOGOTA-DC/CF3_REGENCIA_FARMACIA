@@ -2,18 +2,22 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Mapa de procesos
-    p Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
+    p.mb-5 Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
 
 
-    p.text-small.r-n Mapa de procesos
     .row.justify-content-md-center
       .col-10
-          figure.mb-5
-            img(src="@/assets/tema3/img-1.svg")     
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 11
+          span Mapa de procesos
+        figure.mb-5
+          img(src="@/assets/tema3/img-1.svg")     
+
+        p.text-center.mb-5 Nota. SENA (2021).
 
     p Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
     .row.fond3.mb-5
@@ -26,7 +30,7 @@
         figure.img-80.img-c
           img.mb-3(src="@/assets/tema3/img-5-1.svg")
         p.text-center.text-white 
-          b Medición de resultados y rendimientos de la organización.
+          b Medición de resultados y rendimientos de la organización
       .col-3.px-4.r-r-2.img-c.align-self-center
         figure.img-60.img-c
           img.img-60.mb-3(src="@/assets/tema3/img-5-2.svg")
@@ -36,7 +40,7 @@
         figure.img-80.img-c
           img.img-c.mb-3(src="@/assets/tema3/img-5-3.svg")
         p.text-center.text-white 
-          b Integración de sistemas de atención.     
+          b Integración de sistemas de atención 
       .col-3.px-4.align-self-center
         figure.img-80.img-c
           img.img-c.mb-3(src="@/assets/tema3/img-5-4.svg")
@@ -49,7 +53,7 @@
       .crd_01__icon
         img(src="@/assets/tema3/img-6.svg", alt="alt").class          
       .crd_01__txt
-        p Dentro de la estructuración del mapa de procesos, se deben incluir los aspectos del ciclo PHVA (Planear, Hacer, Verificar y Actuar), el cual se estudiará en el tema siguiente. El proceso debe constituir siempre la unidad básica de acción dentro de la empresa, es decir, es el eje de toda la gestión y acciones en pro de la mejora continua y el alcance de los objetivos estratégicos. 
+        p Dentro de la estructuración del mapa de procesos, se deben incluir los aspectos del <b>ciclo PHVA</b> (Planear, Hacer, Verificar y Actuar), el cual se estudiará en el tema siguiente. El proceso debe constituir siempre la unidad básica de acción dentro de la empresa, es decir, es el eje de toda la gestión y acciones en pro de la mejora continua y el alcance de los objetivos estratégicos. 
     
     .crd_01
       .crd_01__icon

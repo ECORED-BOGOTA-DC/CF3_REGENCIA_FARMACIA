@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
       h1 Servicio al cliente 
@@ -10,7 +10,10 @@
     p Un cliente se define como la persona u organización que realiza una compra. Puede comprar y disfrutar la propiedad o el servicio que compró usted mismo, o puede comprarla para una tercera persona. Los clientes son la parte más importante de un negocio. Con base en lo anterior, un cliente de atención médica puede definirse como una persona que manifiesta necesidades o deseos para sí mismo, o para los demás.
     p.mb-5 Se puede recordar cuáles son los tipos de clientes en la siguiente figura:
 
-    h3.mb-5.text-center Tipos de clientes
+    .titulo-sexto.color-acento-contenido.mb-5
+      h5 Figura 16
+      span Tipos de clientes
+
 
     .row.mb-5
       .col-12
@@ -48,11 +51,18 @@
         
         p.text-center #[strong Clientes-embajadores:] son los clientes frecuentes que, además, hacen propaganda con sus conocidos, sobre la calidad de nuestros productos. 
 
+    p.text-center.mb-5 Nota. SENA (2021).
+
     .row
       .col-12
         p.mb-5 #[strong.span.square B] #[strong Según su comportamiento:]  
-        
-    
+
+    .row.justify-content-center.align-items-center.mb-5
+      LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")       
+
+    .row.justify-content-center.align-items-center.mb-5
+      LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+
 
     .row.mb-5
       .col-12
@@ -122,18 +132,18 @@
     .row.col-8.img-c.mb-5 
       .row.my-5
         .col-7
-          p En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
-          br
-          .ul.lista-ul--color
+          p.mb-4 En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
+
+          ul.lista-ul--color
             li 
               i.ii.fas.fa-atom  
-              p Atributos del buen servicio. 
+              | Atributos del buen servicio. 
             li 
               i.ii.fas.fa-atom  
-              p Actitud.
+              | Actitud.
             li 
               i.ii.fas.fa-atom  
-              p Atención a personas alteradas
+              | Atención a personas alteradas
 
         .col-5.img-c
           figure
@@ -178,95 +188,192 @@
               p.mb-0 #[strong Instalaciones]
               p Debe brindársele al usuario la seguridad y acogida durante su asistencia a la Institución.
 
-    p Durante el proceso de prestación del servicio, se debe generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura:  
+    p.mb-5 Durante el proceso de prestación del servicio, se debe generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura:  
 
-    p.text-small.r-n Ciclo de servicio
-
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 17
+          span Ciclo de servicio
                  
     .row.col-10.img-c
       .row.justify-content-around.align-items-center 
         .col-12.col-lg-auto.justify-content-md-center.mb-4.mx-3  
-          figure.mb-5
+          figure.mb-3
             img.img-400(src="@/assets/tema8/img-21.svg")  
+
+          p.text-center.mb-5 Nota. SENA (2021).
+
         .col-lg.justify-content-md-center.align-self-center
           .cajon.color-secundario.p-4.mb-4.fond1.py-5
             
               p #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
         p Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
 
-    p.text-small.r-n Tabla 2. Síntomas y signos de mal servicio al cliente
-    .tabla-b.color-acento-contenido.mb-5
-      
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-11
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2
+          span Síntomas y signos de mal servicio al cliente
+    
+    .tabla-b.color-acento-contenido.mb-5      
         table
           tr.tabla-b__header
             td
-              strong S&iacute;ntoma
+              strong Síntoma
             td
               strong Signo
           tr
             td
               strong Quejas permanentes de clientes y usuarios
             td
-              ul
-                li.mb-2 All&aacute; nunca contestan. 
-                li.mb-2 Me pasan de un lado al otro. 
-                li.mb-2 Todos me dicen cosas distintas. 
-                li.mb-2 No parece que me contestaran de una empresa. 
-                li.mb-2 Siempre me dejan esperando. 
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.ii.fas.fa-atom  
+                  | Allá nunca contestan.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Me pasan de un lado al otro. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Todos me dicen cosas distintas. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | No parece que me contestaran de una empresa.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Siempre me dejan esperando. 
+
           tr
             td
               strong Base de datos no confiable
             td
-              ul
-                li.mb-2 Cada asesor maneja su archivo de clientes. 
-                li.mb-2 Dificultad para decidir cu&aacute;l base de datos usar para ejecutar diversos an&aacute;lisis.
-                li.mb-2 No se est&aacute; seguro de qu&eacute; tan actualizada se encuentre. 
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.ii.fas.fa-atom  
+                  | Cada asesor maneja su archivo de clientes. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Dificultad para decidir cuál base de datos usar para ejecutar diversos análisis.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No se está seguro de qué tan actualizada se encuentre.
+
           tr
             td
-              strong La organizaci&oacute;n no aprende con el proceso
+              strong La organización no aprende con el proceso
             td
-              ul
-                li.mb-2 No se utilizan los casos de quejas y reclamos, para mejorar los procesos de negocio.
-                li.mb-2 No se usan las preguntas frecuentes (PQRS), para ajustar las comunicaciones. 
-                li.mb-2 El proceso no es un semillero &uacute;til para suplir vacantes de otras dependencias. 
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.ii.fas.fa-atom  
+                  | No se utilizan los casos de quejas y reclamos, para mejorar los procesos de negocio.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No se usan las preguntas frecuentes (PQRS), para ajustar las comunicaciones.
+                li 
+                  i.ii.fas.fa-atom  
+                  | El proceso no es un semillero útil para suplir vacantes de otras dependencias.
+
           tr
             td
               strong No ha desarrollado todo el potencial de su proceso
             td
-              ul
-                li.mb-2 Para mejorar la experiencia del cliente. 
-                li.mb-2 Para conocer mejor a sus clientes. 
-                li.mb-2 Para vender m&aacute;s. 
-                li.mb-2 Para recuperar cartera. 
-                li.mb-2 Para fidelizar clientes. 
-                li.mb-2 Para promocionar su negocio. 
-                li.mb-2 Para hacer encuestas. 
-                li.mb-2 Para recibir quejas y reclamos. 
-                li.mb-2 Para resolver inquietudes. 
-                li.mb-2 Para solucionar requerimientos. 
-                li.mb-2 Para sistematizar informaci&oacute;n. 
-                li.mb-2 Para actualizar y enriquecer las bases de datos. 
-                li.mb-2 Para apoyar a los equipos de ventas. 
-                li.mb-2 Para apoyar a sus canales. 
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para mejorar la experiencia del cliente.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para conocer mejor a sus clientes. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para vender más.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para recuperar cartera.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para fidelizar clientes.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para promocionar su negocio. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para hacer encuestas.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para recibir quejas y reclamos.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para resolver inquietudes.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para solucionar requerimientos.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para sistematizar información. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para actualizar y enriquecer las bases de datos.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para apoyar a los equipos de ventas.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Para apoyar a sus canales.
+
           tr
             td
-              strong Proceso dif&iacute;cil de gerenciar
+              strong Proceso difícil de gerenciar
             td
-              ul
-                li.mb-2 Las instrucciones no se distribuyen entre los destinatarios. 
-                li.mb-2 No sabe si los recursos que tiene son suficientes o no. 
-                li.mb-2 No sabe como medir el proceso en sus diferentes aspectos. 
-                li.mb-2 Es complicado conocer los costos reales incurridos. 
-                li.mb-2 Tiene dudas acerca de si es mejor hacerlo usted, o tercerizarlo. 
-                li.mb-2 No cuenta con las herramientas adecuadas. 
-                li.mb-2 El proceso no marcha solo. 
-                li.mb-2 No monitorea la calidad del servicio. 
-                li.mb-2 Realiza actividades propias del proceso, en diferentes dependencias. 
-                li.mb-2 No sabe cu&aacute;les son las actividades del proceso. 
-                li.mb-2 No tiene ning&uacute;n proceso que soporte el servicio al cliente. 
-                li.mb-2 La ausencia de una sola persona del grupo afecta el desempe&ntilde;o del negocio. 
-                li.mb-2 No cuenta con informes peri&oacute;dicos que reflejen la realidad del proceso.  
-                li.mb-2 No sabe si la tecnolog&iacute;a que utiliza es adecuada para el momento de su negocio. 
+              ul.lista-ul--color.fa-ul2
+                li 
+                  i.ii.fas.fa-atom  
+                  | Las instrucciones no se distribuyen entre los destinatarios. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | No sabe si los recursos que tiene son suficientes o no. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | No sabe como medir el proceso en sus diferentes aspectos.
+                li 
+                  i.ii.fas.fa-atom  
+                  | Es complicado conocer los costos reales incurridos. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Tiene dudas acerca de si es mejor hacerlo usted, o tercerizarlo. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | No cuenta con las herramientas adecuadas.
+                li 
+                  i.ii.fas.fa-atom  
+                  | El proceso no marcha solo.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No monitorea la calidad del servicio. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | Realiza actividades propias del proceso, en diferentes dependencias. 
+                li 
+                  i.ii.fas.fa-atom  
+                  | No sabe cuáles son las actividades del proceso.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No tiene ningún proceso que soporte el servicio al cliente.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No tiene ningún proceso que soporte el servicio al cliente.
+                li 
+                  i.ii.fas.fa-atom  
+                  | La ausencia de una sola persona del grupo afecta el desempeño del negocio.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No cuenta con informes periódicos que reflejen la realidad del proceso.
+                li 
+                  i.ii.fas.fa-atom  
+                  | No sabe si la tecnología que utiliza es adecuada para el momento de su negocio.
+
+  
     .col-lg.justify-content-md-center.align-self-center.img-c.mb-5
         .col-10.cajon.color-secundario.p-4.mb-4.fond1.py-5.img-c
            
@@ -278,37 +385,37 @@
     .row.justify-content-around.align-items-center.m-5.p-3.fond10.p-5
       .col-lg.justify-content-md-center.align-self-center
 
-        .ul.lista-ul--color.px-5
+        ul.lista-ul--color.px-5.fa-ul2
           li 
             i.ii.fas.fa-atom  
-            p Desarrollar un producto o servicio que satisfaga sus necesidades. 
+            | Desarrollar un producto o servicio que satisfaga sus necesidades. 
           li 
             i.ii.fas.fa-atom  
-            p Establecer comunicación directa.
+            | Establecer comunicación directa.
           li 
             i.ii.fas.fa-atom  
-            p Evaluar la satisfacción y mejorarla en función de estos resultados. 
+            | Evaluar la satisfacción y mejorarla en función de estos resultados. 
           li 
             i.ii.fas.fa-atom  
-            p Proporcionar muestras o realizar pruebas previas de productos y servicios. 
+            | Proporcionar muestras o realizar pruebas previas de productos y servicios. 
           li 
             i.ii.fas.fa-atom  
-            p Continuar utilizando la experiencia del usuario. 
+            | Continuar utilizando la experiencia del usuario. 
           li 
             i.ii.fas.fa-atom  
-            p Mantener siempre a los empleados, con un trato favorable al cliente. 
+            | Mantener siempre a los empleados, con un trato favorable al cliente. 
           li 
             i.ii.fas.fa-atom  
-            p No discutir con los clientes.
+            | No discutir con los clientes.
           li 
             i.ii.fas.fa-atom  
-            p No prometer lo imposible. 
+            | No prometer lo imposible. 
           li 
             i.ii.fas.fa-atom  
-            p Evitar esperar el mayor tiempo posible. 
+            | Evitar esperar el mayor tiempo posible. 
           li 
             i.ii.fas.fa-atom  
-            p Brindar a los clientes, beneficios cuestionables.
+            | Brindar a los clientes, beneficios cuestionables.
 
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0 
@@ -344,7 +451,78 @@
 export default {
   name: 'Tema8',
   data: () => ({
-    // variables de vue
+    datosLineaTiempoA: [
+      {
+        ano: '<img src="@/assets/componentes/ej-05.svg" />',
+        titulo: 'Período Paleolítico',
+        texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
+      },
+      {
+        ano: '10.000 - 5.000 A.C.',
+        titulo: 'Periodo Mesolítico',
+        texto:
+          'Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.',
+      },
+      {
+        ano: '10.000 - 5.000 A.C.',
+        titulo: 'Periodo Neolítico',
+        texto: 'Vestimenta de fibras animales y vegetales, pulseras de marfil.',
+      },
+    ],
+    datosLineaTiempoB: [
+      {
+        texto:
+          '<b>Cliente amable:</b> su actitud es amigable, asiente con un sí a todo lo que se le dice, pero no muestra claridad en las cosas, por lo que la mejor estrategia es enseñarle pocos productos.',
+        icono: require('@/assets/tema8/img2.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente entusiasta:</b> es muy conversador y no siempre sus temas tienen que ver con la compra del producto, por lo que el vendedor es quien debe enfocar la conversación en el producto, pero con sutileza. ',
+        icono: require('@/assets/tema8/img3.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente reflexivo:</b> le gusta tener las cosas claras y la información completa, antes de realizar cualquier compra, porque es muy organizado. Requiere ser atendido con paciencia, tranquilidad y datos precisos del producto. ',
+        icono: require('@/assets/tema8/img4.svg'),
+      },
+      {
+        titulo: '04 de marzo',
+        texto:
+          '<b>Cliente indeciso:</b> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
+        icono: require('@/assets/tema8/img5.svg'),
+      },
+      {
+        titulo: '04 de marzo',
+        texto:
+          '<b>Cliente tímido:</b> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
+        icono: require('@/assets/tema8/img6.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente silencioso:</b> es de pocas palabras, pero muy buen escuchante de todo lo que se le dice. No manifiesta de entrada lo que necesita. Se debe ser amable, darle opciones y mostrar interés.',
+        icono: require('@/assets/tema8/img7.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente discutidor:</b> llega en actitud desafiante y soberbia. Ante este tipo de cliente se debe conservar la calma y evitar a toda costa caer en una discusión con él.',
+        icono: require('@/assets/tema8/img8.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente orgulloso:</b> es muy bueno con la labia y cree sabérselas todas, por lo que no permite que lo asesoren. Si permite un consejo, se le brinda con certeza y claridad.',
+        icono: require('@/assets/tema8/img9.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente escéptico:</b> es desconfiado y prevenido, por lo que pregunta las ventajas y desventajas del producto, pues teme ser engañado. ',
+        icono: require('@/assets/tema8/img10.svg'),
+      },
+      {
+        texto:
+          '<b>Cliente ocupado:</b> desde el inicio, su saludo va acompañado de un “cuento con poco tiempo”, suele ser impaciente y querer que lo atiendan de inmediato.',
+        icono: require('@/assets/tema8/img11.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

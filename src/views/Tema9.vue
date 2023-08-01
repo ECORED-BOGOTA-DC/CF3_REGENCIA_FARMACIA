@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 9
       h1 Principios éticos y bioéticos en la prestación del servicio 
@@ -14,9 +14,12 @@
         figure
           img(src='@/assets/tema9/img-1.svg')
     
-    p La siguiente tabla 3 presenta las características de los códigos de ética y bioética.
+    p.mb-5 La siguiente tabla 3 presenta las características de los códigos de ética y bioética.
 
-    p.text-small.r-n Tabla 3. Características del código de ética y bioética
+
+    .titulo-sexto.color-acento-contenido.mb-5
+      h5 Tabla 3
+      span Características del código de ética y bioética
 
     .tabla-b.color-acento-contenido.mb-5
       

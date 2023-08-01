@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
       h1 Reglamento interno
@@ -26,59 +26,59 @@
             img(src="@/assets/tema5/img-2.svg" alt="Dispensario de fármacos")
           .col-lg-4_5.col-z2.f-right(data-aos="fade-left")
             .contenedor3c.p-4
-              .ul.lista-ul--color
+              ul.lista-ul--color.fa-ul2
                 li 
                   i.ii.fas.fa-atom
-                  p Inducción general.
+                  | Inducción general.
                 li 
                   i.ii.fas.fa-atom
-                  p Condiciones de admisión. 
+                  | Condiciones de admisión. 
                 li 
                   i.ii.fas.fa-atom
-                  p Período de prueba. 
+                  | Período de prueba. 
                 li 
                   i.ii.fas.fa-atom
-                  p Trabajadores transitorios. 
+                  | Trabajadores transitorios. 
                 li 
                   i.ii.fas.fa-atom
-                  p Horario de trabajo.
+                  | Horario de trabajo.
                 li 
                   i.ii.fas.fa-atom
-                  p Días de descanso legalmente obligatorios.
+                  | Días de descanso legalmente obligatorios.
                 li 
                   i.ii.fas.fa-atom
-                  p Vacaciones remuneradas.
+                  | Vacaciones remuneradas.
                 li 
                   i.ii.fas.fa-atom
-                  p Permisos.
- 
+                  | Permisos.
+
         .row.traslape2.mb-5
           .col-lg-7.col-z1.f-right(data-aos="fade-left")
             img(src="@/assets/tema5/img-3.svg" alt="Mujer farmacéutica en dispensario de fármacos")
           .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
             .contenedor3c.p-4
-              .ul.lista-ul--color
+              ul.lista-ul--color.fa-ul2
                 li 
                   i.ii.fas.fa-atom
-                  p Servicio médico, medidas de seguridad, riesgos profesionales, primeros auxilios en caso de accidentes de trabajo, normas sobre labores en orden a la mayor higiene, regularidad y seguridad en el trabajo.
+                  | Servicio médico, medidas de seguridad, riesgos profesionales, primeros auxilios en caso de accidentes de trabajo, normas sobre labores en orden a la mayor higiene, regularidad y seguridad en el trabajo.
                 li 
                   i.ii.fas.fa-atom
-                  p Deberes del trabajador.
+                  | Deberes del trabajador.
                 li 
                   i.ii.fas.fa-atom
-                  p Organigrama o la distribución jerárquica dentro de la empresa. 
+                  | Organigrama o la distribución jerárquica dentro de la empresa. 
                 li 
                   i.ii.fas.fa-atom
-                  p Obligaciones del empleador.
+                  | Obligaciones del empleador.
                 li 
                   i.ii.fas.fa-atom
-                  p Prohibiciones para la entidad y los trabajadores.
+                  | Prohibiciones para la entidad y los trabajadores.
                 li 
                   i.ii.fas.fa-atom
-                  p Escala de faltas y sanciones disciplinarias.
+                  | Escala de faltas y sanciones disciplinarias.
                 li 
                   i.ii.fas.fa-atom
-                  p Procedimiento para la comprobación de faltas y normas para la aplicación de las sanciones disciplinarias.
+                  | Procedimiento para la comprobación de faltas y normas para la aplicación de las sanciones disciplinarias.
 
 
         .row.traslape1
@@ -86,22 +86,22 @@
             img(src="@/assets/tema5/img-4.svg" alt="Dispensario de fármacos")
           .col-lg-4_5.col-z2.f-right(data-aos="fade-left")
             .contenedor3c.p-4
-              .ul.lista-ul--color
+              ul.lista-ul--color
                 li 
                   i.ii.fas.fa-atom
-                  p Justas causas especiales de terminación del contrato sin previo aviso.
+                  | Justas causas especiales de terminación del contrato sin previo aviso.
                 li 
                   i.ii.fas.fa-atom
-                  p Justas causas de terminación unilateral, del contrato de trabajo.
+                  | Justas causas de terminación unilateral, del contrato de trabajo.
                 li 
                   i.ii.fas.fa-atom
-                  p Reclamos, personas ante quienes debe presentarse y su tramitación.
+                  | Reclamos, personas ante quienes debe presentarse y su tramitación.
                 li 
                   i.ii.fas.fa-atom
-                  p Procedimientos de quejas y reclamos.
+                  | Procedimientos de quejas y reclamos.
                 li 
                   i.ii.fas.fa-atom
-                  p Medidas preventivas y correctivas en situaciones de acoso laboral.
+                  | Medidas preventivas y correctivas en situaciones de acoso laboral.
 
     p Dentro de todo el contexto de control interno, es indispensable establecer los parámetros de acción dentro de un Manual de funciones. Este documento contiene la descripción de los diversos puestos de trabajo. Sus características son:
 
@@ -124,34 +124,34 @@
 
     .row.justify-content-around.align-items-center.fond2.m-5.p-0 
       .col-lg.justify-content-md-center.align-self-center.px-5.order-2.order-lg-1 
-        .ul.lista-ul--color.px-5
+        ul.lista-ul--color.px-5
           li 
             i.ii.fas.fa-atom  
-            p Finalidad.
+            | Finalidad.
           li 
             i.ii.fas.fa-atom  
-            p Área de Eficacia / Resultados.    
+            | Área de Eficacia / Resultados.    
           li 
             i.ii.fas.fa-atom  
-            p Tareas.
+            | Tareas.
           li 
             i.ii.fas.fa-atom  
-            p Funciones.
+            | Funciones.
           li 
             i.ii.fas.fa-atom  
-            p De Ejecución.
+            | De Ejecución.
           li 
             i.ii.fas.fa-atom  
-            p Directiva.
+            | Directiva.
           li 
             i.ii.fas.fa-atom  
-            p Empresariales.
+            | Empresariales.
           li 
             i.ii.fas.fa-atom  
-            p Decisiones.
+            | Decisiones.
           li 
             i.ii.fas.fa-atom  
-            p Relaciones del puesto.
+            | Relaciones del puesto.
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0.order-1.order-lg-2 
         figure
