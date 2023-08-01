@@ -486,13 +486,11 @@ export default {
         icono: require('@/assets/tema8/img4.svg'),
       },
       {
-        titulo: '04 de marzo',
         texto:
           '<b>Cliente indeciso:</b> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
         icono: require('@/assets/tema8/img5.svg'),
       },
       {
-        titulo: '04 de marzo',
         texto:
           '<b>Cliente tímido:</b> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
         icono: require('@/assets/tema8/img6.svg'),
