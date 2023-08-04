@@ -11,7 +11,7 @@
     p.mb-5 Se puede recordar cuáles son los tipos de clientes en la siguiente figura:
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 16
+      h5 Figura 16.
       span Tipos de clientes
 
 
@@ -193,7 +193,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 17
+          h5 Figura 17.
           span Ciclo de servicio
                  
     .row.col-10.img-c
@@ -213,7 +213,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-11
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 2
+          h5 Tabla 2.
           span Síntomas y signos de mal servicio al cliente
     
     .tabla-b.color-acento-contenido.mb-5      

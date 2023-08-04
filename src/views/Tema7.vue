@@ -49,7 +49,7 @@
 
     .col-11.col-lg-auto.justify-content-md-center.px-5.my-5
       .titulo-sexto.color-acento-contenido.mb-4
-        h5 Figura 14
+        h5 Figura 14.
         span Proceso de decisión
 
       figure.mb-5
@@ -115,7 +115,7 @@
     .row.justify-content-around.flex-d.mb-5
       .col-lg-11
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 15
+          h5 Figura 15.
           span Origen tipos de conflictos
 
       .col-5.fond2.esp.p-5

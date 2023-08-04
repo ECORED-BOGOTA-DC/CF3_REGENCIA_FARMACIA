@@ -115,7 +115,7 @@
     .row.justify-content-around.align-items-center.img-c
       .col-10.img-c
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 13
+          h5 Figura 13.
           span Ingeniería organizacional
         figure.mb-5.img-500.img-c
           img(src="@/assets/tema6/img-7-.svg")  

@@ -12,7 +12,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11.justify-content-md-center.p-5
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10
+          h5 Figura 10.
           span Organigrama
         figure.mb-3
           img(src="@/assets/tema2/img-1.svg")         

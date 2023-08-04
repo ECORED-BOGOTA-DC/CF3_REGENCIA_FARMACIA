@@ -25,7 +25,7 @@
 
     .col-11.col-lg-auto.justify-content-md-center.m-4.px-5
       .titulo-sexto.color-acento-contenido.mb-3
-        h5 Figura 1
+        h5 Figura 1.
         span Momentos planeamiento
 
       figure.mb-5
@@ -38,7 +38,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-11    
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2
+          h5 Figura 2.
           span Acciones estratégicas y acciones tácticas
     
     .row.justify-content-around.mb-5
@@ -65,7 +65,7 @@
     .row.justify-content-center.align-items-center.my-4
       .col-lg-11    
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3
+          h5 Figura 3.
           span Visión
 
       .col-11.col-lg-auto.justify-content-md-center.px-5
@@ -80,7 +80,7 @@
 
     .col-11.col-lg-auto.justify-content-md-center.px-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 4
+        h5 Figura 4.
         span Misión
       figure.mb-5
         img(src="@/assets/tema1/img-5.svg")  
@@ -99,7 +99,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5
+          h5 Figura 5.
           span Características de los objetivos estratégicos
 
     .row.col-lg-12.justify-content-md-center    
@@ -137,7 +137,7 @@
 
     .col-11.col-lg-auto.justify-content-md-center.px-5
       .titulo-sexto.color-acento-contenido.my-5
-        h5 Figura 6
+        h5 Figura 6.
         span Características de los objetivos estratégicos y específicos
 
       figure.mb-4
@@ -149,7 +149,7 @@
 
     .row.justify-content-around.align-items-center.p-5.fond3.m-0.mb-5
       .titulo-sexto.color-acento-contenido.my-5
-        h5 Figura 7
+        h5 Figura 7.
         span Estructura gráfica de los objetivos
 
       .col-12.col-lg-auto.justify-content-md-center.mb-3  
@@ -163,7 +163,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .titulo-sexto.color-acento-contenido
-        h5 Tabla 1
+        h5 Tabla 1.
         span Descripción de las características de las políticas, principios y valores
   
     .tabla-a.color-secundario.mb-3
@@ -241,7 +241,7 @@
     .row.justify-content-center.align-items-center.fond4.mb-5
       .col-11
         .titulo-sexto.color-acento-contenido.my-5
-          h5 Figura 8
+          h5 Figura 8.
           span Ejemplo de política general
 
       .col-11.col-lg-auto.justify-content-md-center.px-5
@@ -257,7 +257,7 @@
     .col-11.col-lg-auto.justify-content-md-center.px-5
 
       .titulo-sexto.color-acento-contenido.my-5
-        h5 Figura 9
+        h5 Figura 9.
         span Articulación de la plataforma estratégica
       
       figure.mb-5

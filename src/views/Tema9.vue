@@ -18,7 +18,7 @@
 
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Tabla 3
+      h5 Tabla 3.
       span Características del código de ética y bioética
 
     .tabla-b.color-acento-contenido.mb-5

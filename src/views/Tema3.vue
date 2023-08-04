@@ -12,7 +12,7 @@
     .row.justify-content-md-center
       .col-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 11
+          h5 Figura 11.
           span Mapa de procesos
         figure.mb-5
           img(src="@/assets/tema3/img-1.svg")     

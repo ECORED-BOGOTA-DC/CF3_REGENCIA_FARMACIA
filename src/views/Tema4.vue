@@ -13,7 +13,7 @@
     .row.justify-content-md-center.px-5
       .col-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 12
+          h5 Figura 12.
           span Características FODA
         figure.mb-5
           img(src="@/assets/tema4/img-1.svg")     
