@@ -248,56 +248,65 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Servicio al cliente	Grupo Proikos. (2015). Atención y Servicio al Cliente [video]. Youtube.',
+      tema: 'Servicio al cliente',
+      referencia:
+        'Grupo Proikos. (2015). <i>Atención y Servicio al Cliente</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5xGoNUkHpZQ',
     },
     {
-      texto:
-        'Servicio al cliente	Julca, S. (2016). Protocolos de atención al cliente [video]. Youtube.',
+      tema: 'Servicio al cliente',
+      referencia:
+        'Julca, S. (2016). <i>Protocolos de atención al cliente</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=egkOLUiEdx4',
     },
     {
-      texto:
-        'Servicio al cliente	González, J. (2013). Protocolo servicio al cliente [video]. Youtube.',
+      tema: 'Servicio al cliente',
+      referencia:
+        'González, J. (2013). <i>Protocolo servicio al cliente</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ejD34cB36aQ',
     },
     {
-      texto:
-        'Comunicación 	Cultura 52. (2016) ¿Qué es Comunicación Asertiva? [video]. Youtube.',
+      tema: 'Comunicación',
+      referencia:
+        'Cultura 52. (2016) <i>¿Qué es Comunicación Asertiva?</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=eF-UJWjGSX8',
     },
     {
-      texto:
-        'Comunicación	Víctor Toscano TV. (2010). 7 claves para comunicarte mejor | comunicación efectiva y técnicas de oratoria para hablar bien [video]. Youtube.',
+      tema: 'Comunicación',
+      referencia:
+        'Víctor Toscano TV. (2010). <i>7 claves para comunicarte mejor | comunicación efectiva y técnicas de oratoria para hablar bien</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6tGA8RDW-Z0',
     },
     {
-      texto:
-        'Servicio al cliente	Highley, C. (2018). La cortesía telefónica... El arte de escuchar [video]. Youtube.',
+      tema: 'Servicio al cliente',
+      referencia:
+        'Highley, C. (2018). <i>La cortesía telefónica... El arte de escuchar</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=BDamU19Cvaw',
     },
     {
-      texto:
-        'Servicio al cliente	Jaime, D. (2013). Tipos de clientes [video]. Youtube. ',
+      tema: 'Servicio al cliente',
+      referencia:
+        'Jaime, D. (2013). <i>Tipos de clientes</i> [video]. Youtube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hixQG0y7nuI',
     },
     {
-      texto:
-        'Principios éticos y bioéticos en la prestación del servicio	PAHO TV. (2015). La calidad de atención en los servicios de salud [video]. Youtube.',
+      tema: 'Principios éticos y bioéticos en la prestación del servicio',
+      referencia:
+        'PAHO TV. (2015). <i>La calidad de atención en los servicios de salud</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UQ4wuzF5eNY',
     },
     {
-      texto:
-        'Principios éticos y bioéticos en la prestación del servicio	El Juego Interior. (2017) Proactivo vs Reactivo [video]. Youtube.',
+      tema: 'Principios éticos y bioéticos en la prestación del servicio',
+      referencia:
+        'El Juego Interior. (2017) <i>Proactivo vs Reactivo</i> [video]. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=_DnY90zXLBk',
     },
