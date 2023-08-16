@@ -110,7 +110,7 @@
         figure.mb-5
           img(src="@/assets/tema7/img-3.svg")  
 
-    p.mb-5 Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura.        
+    p.mb-5 Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura 15.       
 
     .row.justify-content-around.flex-d.mb-5
       .col-lg-11

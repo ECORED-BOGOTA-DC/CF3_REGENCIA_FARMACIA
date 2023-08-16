@@ -45,7 +45,7 @@
         figure.img-80.img-c
           img.img-c.mb-3(src="@/assets/tema3/img-5-4.svg")
         p.text-center.text-white 
-          b Gestión del riesgo operacional.
+          b Gestión del riesgo operacional
        
     p Es importante tener presente lo siguiente:
 
