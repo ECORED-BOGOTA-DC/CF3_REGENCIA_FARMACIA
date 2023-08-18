@@ -60,7 +60,7 @@
 
 
     p De acuerdo con la información anterior, se puede concluir que: <b>lo estratégico está ligado con la visión empresarial</b> y <b>lo táctico se enlaza, directamente, con la misión empresarial.</b> En este sentido, es indispensable tener presente qué características deben cumplir cada una de estas acciones, para garantizar un despliegue relativamente fácil, dentro de la organización.
-    p Las siguientes imágnes exponen en qué consiste la misión y la visión.
+    p Las siguientes imágenes exponen en qué consiste la misión y la visión.
 
     .row.justify-content-center.align-items-center.my-4
       .col-lg-11    
