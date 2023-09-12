@@ -6,9 +6,13 @@
       .titulo-principal__numero
         span 7
       h1 Manejo y solución de conflictos 
-    p Las relaciones laborales pueden verse afectadas por muchos tipos diferentes de conflictos, incluidos problemas laborales y personales. Lo más importante es aprender a gestionar las relaciones laborales para lograr los objetivos establecidos sin afectar el entorno laboral. Las organizaciones juegan un papel activo en dar forma y reforzar su cultura. El líder decide qué se debe probar y qué medir. 
-    p Para manejar el conflicto se requiere de un buen liderazgo, el cual se constituye como un conjunto de habilidades gerenciales o grupales que un individuo tiene para influir en el comportamiento o conducta de una persona, o dentro de un grupo de trabajo en particular. Este equipo trabaja con entusiasmo para lograr metas u objetivos comunes. 
-    p Una de las mayores contribuciones en el campo de la gestión estratégica en los últimos años, ha sido enfatizar la importancia del equipo directivo en el desarrollo de la estrategia y la eficacia o desempeño de una empresa. Las decisiones dentro de este incluyen acciones en la selección de diferentes alternativas para resolver un problema o para lograr las metas establecidas.
+    
+    p(data-aos="fade-right") Las relaciones laborales pueden verse afectadas por muchos tipos diferentes de conflictos, incluidos problemas laborales y personales. Lo más importante es aprender a gestionar las relaciones laborales para lograr los objetivos establecidos sin afectar el entorno laboral. Las organizaciones juegan un papel activo en dar forma y reforzar su cultura. El líder decide qué se debe probar y qué medir. 
+    
+    p(data-aos="fade-left") Para manejar el conflicto se requiere de un buen liderazgo, el cual se constituye como un conjunto de habilidades gerenciales o grupales que un individuo tiene para influir en el comportamiento o conducta de una persona, o dentro de un grupo de trabajo en particular. Este equipo trabaja con entusiasmo para lograr metas u objetivos comunes. 
+    
+    p(data-aos="fade-right") Una de las mayores contribuciones en el campo de la gestión estratégica en los últimos años, ha sido enfatizar la importancia del equipo directivo en el desarrollo de la estrategia y la eficacia o desempeño de una empresa. Las decisiones dentro de este incluyen acciones en la selección de diferentes alternativas para resolver un problema o para lograr las metas establecidas.
+    
     .row.traslape3.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-3.ms-auto.p-0
         img(src='@/assets/tema7/img-1.svg', alt='manos caras')
@@ -45,7 +49,7 @@
       .col-lg-3.me-auto.p-0
         img(src='@/assets/tema7/img-1-.svg', alt='gente')
     
-    p Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura.
+    p(data-aos="fade-left") Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura.
 
     .col-11.col-lg-auto.justify-content-md-center.px-5.my-5
       .titulo-sexto.color-acento-contenido.mb-4
@@ -53,11 +57,11 @@
         span Proceso de decisión
 
       figure.mb-5
-        img(src="@/assets/tema7/img-2.svg")     
+        img(src="@/assets/tema7/img-2.svg", alt='Figura 14. Explica el proceso de decisión, el cual busca la solución de un problema.')     
 
       p.text-center.mb-5 Nota. SENA (2021).
 
-    p Con respecto al manejo y solución de conflictos, se direcciona la forma de manejar las inconformidades de los empleados o los usuarios, por medio de estrategias diseñadas desde la dirección general de la Institución para dar resolución a dichas diferencias, generando un ambiente agradable dentro del ámbito laboral o la prestación del servicio. 
+    p(data-aos="fade-right") Con respecto al manejo y solución de conflictos, se direcciona la forma de manejar las inconformidades de los empleados o los usuarios, por medio de estrategias diseñadas desde la dirección general de la Institución para dar resolución a dichas diferencias, generando un ambiente agradable dentro del ámbito laboral o la prestación del servicio. 
 
     .row.justify-content-around.align-items-center.p-5.fond8.mb-5 
       .col-lg.justify-content-md-center.align-self-center
@@ -108,9 +112,9 @@
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4  
         figure.mb-5
-          img(src="@/assets/tema7/img-3.svg")  
+          img(src="@/assets/tema7/img-3.svg", alt='Imágen decorativa')  
 
-    p.mb-5 Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura 15.       
+    p.mb-5(data-aos="fade-left") Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura 15.       
 
     .row.justify-content-around.flex-d.mb-5
       .col-lg-11
@@ -121,7 +125,7 @@
       .col-5.fond2.esp.p-5
         .crd_03
           .crd_03__icon
-            img(src="@/assets/tema7/img-4.svg", alt="alt").class          
+            img(src="@/assets/tema7/img-4.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
           .crd_03__txt
             h3 Origen
         p.text-bold.text-center Externo al hombre               
@@ -153,7 +157,7 @@
       .col-5.fond2-2.esp.p-5      
         .crd_03.mb-0
           .crd_03__icon
-            img(src="@/assets/tema7/img-4-.svg", alt="alt").class          
+            img(src="@/assets/tema7/img-4-.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
           .crd_03__txt
             h3 Característica
         p.text-bold.text-center Interno al hombre    
@@ -220,7 +224,7 @@
       
         .col-12.col-lg-auto.justify-content-md-center.mb-4  
           figure.img-300
-            img(src="@/assets/tema7/img-5.svg")  
+            img(src="@/assets/tema7/img-5.svg", alt='Imágen decorativa')  
 
 
 

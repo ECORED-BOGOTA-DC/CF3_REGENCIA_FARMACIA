@@ -7,15 +7,15 @@
         span 8
       h1 Servicio al cliente 
 
-    p Un cliente se define como la persona u organización que realiza una compra. Puede comprar y disfrutar la propiedad o el servicio que compró usted mismo, o puede comprarla para una tercera persona. Los clientes son la parte más importante de un negocio. Con base en lo anterior, un cliente de atención médica puede definirse como una persona que manifiesta necesidades o deseos para sí mismo, o para los demás.
-    p.mb-5 Se puede recordar cuáles son los tipos de clientes en la siguiente figura:
+    p(data-aos="fade-right") Un cliente se define como la persona u organización que realiza una compra. Puede comprar y disfrutar la propiedad o el servicio que compró usted mismo, o puede comprarla para una tercera persona. Los clientes son la parte más importante de un negocio. Con base en lo anterior, un cliente de atención médica puede definirse como una persona que manifiesta necesidades o deseos para sí mismo, o para los demás.
+    p.mb-5(data-aos="fade-left") Se puede recordar cuáles son los tipos de clientes en la siguiente figura:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
       h5 Figura 16.
       span Tipos de clientes
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-12
         p.mb-0 #[strong.span.square a] #[strong Según su nivel de fidelización:]  
    
@@ -24,14 +24,14 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4.r-r.tt
         .row.justify-content-center.mb-3
           .col-10
-            img(src='@/assets/tema8/img-1.svg' alt='AvatarTop')
+            img(src='@/assets/tema8/img-1.svg', alt='Imágen decorativa')
 
         p.text-center #[strong Cliente ocasional:] sus adquisiciones no tienen una frecuencia establecida.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4.r-r.tt
         .row.justify-content-center.mb-3
           .col-10
-            img(src='@/assets/tema8/img-1-.svg' alt='AvatarTop')
+            img(src='@/assets/tema8/img-1-.svg', alt='Imágen decorativa')
         
         p.text-center #[strong Cliente de compra regular:] la mayor parte de las compras las realiza en el establecimiento, pero también hay momentos donde adquiere en otra parte.
 
@@ -39,7 +39,7 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4.r-r.tt
         .row.justify-content-center.mb-3
           .col-10
-            img(src='@/assets/tema8/img-1.svg' alt='AvatarTop')
+            img(src='@/assets/tema8/img-1.svg', alt='Imágen decorativa')
         
         p.text-center #[strong Cliente de compra frecuente:] normalmente adquiere los productos del establecimiento.
 
@@ -47,14 +47,14 @@
       .col-md-6.col-lg.tarjeta--tabla.p-4.tt
         .row.justify-content-center.mb-3
           .col-10
-            img(src='@/assets/tema8/img-1-.svg' alt='AvatarTop')
+            img(src='@/assets/tema8/img-1-.svg', alt='Imágen decorativa')
         
         p.text-center #[strong Clientes-embajadores:] son los clientes frecuentes que, además, hacen propaganda con sus conocidos, sobre la calidad de nuestros productos. 
 
     p.text-center.mb-5 Nota. SENA (2021).
 
     .row
-      .col-12
+      .col-12(data-aos="fade-left")
         p.mb-5 #[strong.span.square B] #[strong Según su comportamiento:]  
 
     .row.justify-content-center.align-items-center.mb-5
@@ -65,58 +65,58 @@
 
 
     .row.mb-5
-      .col-12
+      .col-12(data-aos="fade-left")
         p.mb-0 #[strong.span.square c] #[strong Según su satisfacción:] 
 
     .tarjeta.tarjeta--azul.p-4.mb-5.fond9
       SlyderA
         .row.p-5
           figure
-              img(src='@/assets/tema8/img-12.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-12.svg', alt='Imágen decorativa')
               
 
         div
           figure
-              img(src='@/assets/tema8/img-13.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-13.svg', alt='Imágen decorativa')
               
 
         .row
           figure
-              img(src='@/assets/tema8/img-14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-14.svg', alt='Imágen decorativa')
              
 
         div
           figure
-              img(src='@/assets/tema8/img-15-.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-15-.svg', alt='Imágen decorativa')
               
         div
           figure
-              img(src='@/assets/tema8/img-16.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/tema8/img-16.svg', alt='Imágen decorativa')
               
 
     p Para entender mejor su concepto, a continuación se listan los factores que intervienen en el servicio al cliente:
     .col-md-10.img-c 
       PasosA.color-acento-contenido.mb-5(tipo="n")
-        .row
+        .row(data-aos="fade-left")
           h3 Amabilidad
           p Hace referencia al trato amable, cortés y servicial. 
           
-        .row
+        .row(data-aos="fade-right")
           h3 Atención personalizada
           p Cuando el profesional de la salud le indica que ingrese a consulta médica y lo acompaña durante todo su proceso.
-        .row
+        .row(data-aos="fade-left")
           h3 Rapidez en la atención
           p Cuando se cuenta con procesos simples y eficientes, cuando se cuenta con una cantidad suficiente de personal, cuando se le capacita al personal para que brinde una rápida atención, etc.
-        .row
+        .row(data-aos="fade-right")
           h3 Ambiente agradable
           p Cuando los trabajadores le brindan al usuario un trato amable y amigable.
-        .row
+        .row(data-aos="fade-left")
           h3 Comodidad
           p Cuando las instalaciones de la Institución cuentan con espacios amplios y cómodos.
-        .row
+        .row(data-aos="fade-right")
           h3 Seguridad
           p Cuando se cuenta con suficiente personal de seguridad, cuando se tienen claramente marcadas las zonas de seguridad, cuando se tienen claramente señalizadas las vías de escape, cuando se cuenta con botiquines médicos, etc.
-        .row
+        .row(data-aos="fade-left")
           h3 Higiene
           p Por ejemplo, cuando se evidencian los baños de la institución siempre limpios, con todos sus implementos de higiene como jabón, papel, etc., pisos y sanitarios aseados.                                      
 
@@ -124,7 +124,7 @@
 
     .row.justify-content-center.mb-5.fond2.align-self-center.mx-3
       .col-5
-          img(src="@/assets/tema8/img-17.svg") 
+          img(src="@/assets/tema8/img-17.svg", alt='Imágen decorativa') 
       .col-7.align-self-center.p-5.px-0
           p.mb-0.mx-5
             b El buen servicio al cliente debe estar presente en todos los servicios que solicite el usuario. Debe prevalecer la interacción con el usuario, desde el saludo hasta el final de la atención del paciente y su posterior egreso. Para esto es necesario capacitar y motivar permanentemente, no solo al personal que está en contacto con el usuario sino en general a todo el talento humano de la institución, para la prestación de un servicio con calidad.       
@@ -132,29 +132,29 @@
     .row.col-8.img-c.mb-5 
       .row.my-5
         .col-7
-          p.mb-4 En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
+          p.mb-4(data-aos="fade-up") En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta: 
 
           ul.lista-ul--color
-            li 
+            li(data-aos="fade-up")
               i.ii.fas.fa-atom  
               | Atributos del buen servicio. 
-            li 
+            li(data-aos="fade-up")
               i.ii.fas.fa-atom  
               | Actitud.
-            li 
+            li(data-aos="fade-up") 
               i.ii.fas.fa-atom  
               | Atención a personas alteradas
 
         .col-5.img-c
           figure
-                img(src='@/assets/tema8/img-18.svg')
+                img(src='@/assets/tema8/img-18.svg', alt='Imágen decorativa')
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center
         .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/tema8/img-19.svg")
+              img(src="@/assets/tema8/img-19.svg", alt='Imágen decorativa')
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -188,7 +188,7 @@
               p.mb-0 #[strong Instalaciones]
               p Debe brindársele al usuario la seguridad y acogida durante su asistencia a la Institución.
 
-    p.mb-5 Durante el proceso de prestación del servicio, se debe generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura:  
+    p.mb-5(data-aos="fade-left") Durante el proceso de prestación del servicio, se debe generar un ciclo de servicio adecuado, el cual debe estar enfocado en los siguientes aspectos reconocibles en la figura:  
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
@@ -200,15 +200,14 @@
       .row.justify-content-around.align-items-center 
         .col-12.col-lg-auto.justify-content-md-center.mb-4.mx-3  
           figure.mb-3
-            img.img-400(src="@/assets/tema8/img-21.svg")  
+            img.img-400(src="@/assets/tema8/img-21.svg", alt='Figura 17. Muestra el ciclo de servicio que contiene 5 aspectos que son:<br>1. Identificación de los momentos de verdad.<br>2. Requerimientos de clientes.<br>3. Planes de acción enfocados a la atención y solución de casos detectados.<br>4. Priorización de áreas.<br>5. Evaluación de la satisfacción del cliente.')  
 
           p.text-center.mb-5 Nota. SENA (2021).
 
         .col-lg.justify-content-md-center.align-self-center
-          .cajon.color-secundario.p-4.mb-4.fond1.py-5
-            
-              p #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
-        p Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
+          .cajon.color-secundario.p-4.mb-4.fond1.py-5(data-aos="flip-left")            
+              p.mb-0 #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
+        p(data-aos="fade-left") Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-11
@@ -217,7 +216,7 @@
           span Síntomas y signos de mal servicio al cliente
     
     .tabla-b.color-acento-contenido.mb-5      
-        table
+        table(alt="Expone todos los síntomas y los signos de un mal servicio al cliente.")
           tr.tabla-b__header
             td
               strong Síntoma
@@ -375,12 +374,11 @@
 
   
     .col-lg.justify-content-md-center.align-self-center.img-c.mb-5
-        .col-10.cajon.color-secundario.p-4.mb-4.fond1.py-5.img-c
-           
-            p Se debe tener en cuenta #[strong que la satisfacción del cliente es muy importante para las instituciones médicas. Basado en su experiencia, se recomiendan los servicios de la organización a otros usuarios. También hay que decir que la satisfacción es una de las claves para incrementar la rentabilidad de una organización.]
+        .col-10.cajon.color-secundario.p-4.mb-4.fond1.py-5.img-c(data-aos="flip-down")           
+          p Se debe tener en cuenta #[strong que la satisfacción del cliente es muy importante para las instituciones médicas. Basado en su experiencia, se recomiendan los servicios de la organización a otros usuarios. También hay que decir que la satisfacción es una de las claves para incrementar la rentabilidad de una organización.]
 
-    p Actualmente, los usuarios utilizan diferentes unidades (EPS o sus operadores logísticos) y pueden elegir la unidad que mejor se adapte a su salud. Sin embargo, si tiene una experiencia de servicio satisfactoria, puede aumentar la cantidad de usuarios de EPS y empresas de logística y mejorar la calidad del servicio.
-    p La satisfacción del cliente se logra con las siguientes actividades:
+    p(data-aos="fade-right") Actualmente, los usuarios utilizan diferentes unidades (EPS o sus operadores logísticos) y pueden elegir la unidad que mejor se adapte a su salud. Sin embargo, si tiene una experiencia de servicio satisfactoria, puede aumentar la cantidad de usuarios de EPS y empresas de logística y mejorar la calidad del servicio.
+    p(data-aos="fade-left") La satisfacción del cliente se logra con las siguientes actividades:
 
     .row.justify-content-around.align-items-center.m-5.p-3.fond10.p-5
       .col-lg.justify-content-md-center.align-self-center
@@ -420,27 +418,27 @@
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0 
         figure
-              img(src='@/assets/tema8/img-22.svg')
+              img(src='@/assets/tema8/img-22.svg', alt='Imágen decorativa')
 
 
-    p Algunos instrumentos muy eficientes que se utilizan para conocer la satisfacción del cliente son:
+    p(data-aos="fade-right") Algunos instrumentos muy eficientes que se utilizan para conocer la satisfacción del cliente son:
     .row.justify-content-around.align-items-center
       .col-10
-        .crd_02.mb-3
+        .crd_02.mb-3(data-aos="fade-left")
           .crd_02__icon
-            img(src="@/assets/tema8/img-23.svg", alt="alt").class          
+            img(src="@/assets/tema8/img-23.svg", alt='Imágen decorativa').class          
           .crd_02__txt
             p.mb-0 #[strong Entrevista:] es el sistema de comunicación que permite conocer la opinión de otros sobre algún tema en específico. Esto implica conocimiento previo del entrevistado y objetivos planteados por parte del entrevistador.
 
-        .crd_02.mb-3
+        .crd_02.mb-3(data-aos="fade-left")
           .crd_02__icon
-            img(src="@/assets/tema8/img-24.svg", alt="alt").class          
+            img(src="@/assets/tema8/img-24.svg", alt='Imágen decorativa').class          
           .crd_02__txt
             p.mb-0 #[strong Encuesta:] es un instrumento usado para conocer la opinión de las personas que conforman un determinado sector. Estas encuestas ayudan a determinar qué le gusta y qué no les gusta a los clientes; áreas de posibles mejoras, incluso ayuda para saber qué otro tipo de necesidades tienen los clientes. 
 
-        .crd_02.mb-3
+        .crd_02.mb-3(data-aos="fade-left")
           .crd_02__icon
-            img(src="@/assets/tema8/img-25.svg", alt="alt").class          
+            img(src="@/assets/tema8/img-25.svg", alt='Imágen decorativa').class          
           .crd_02__txt
             p.mb-0 #[strong Buzón de sugerencias:] este instrumento permite a los usuarios depositar, de manera escrita, sus necesidades, recomendaciones, quejas, reclamos o incluso felicitaciones hacia la entidad o a las personas en específico, dependiendo del motivo por el cual se utiliza el buzón. Los buzones deben estar a la vista del público, tener fácil acceso y contar con los elementos necesarios para poder interponer la queja o sugerencia.       
 

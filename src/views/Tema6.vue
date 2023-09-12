@@ -7,7 +7,7 @@
         span 6
       h1 Cultura y clima organizacionales
 
-    p Las organizaciones tienen un fin, unos objetivos de supervivencia, pasan por diferentes retos, tienen una personalidad propia, y todo esto está relacionado con la cultura; por esto se pueden identificar los siguientes, dentro de los conceptos generales del clima organizacional. 
+    p(data-aos="fade-right") Las organizaciones tienen un fin, unos objetivos de supervivencia, pasan por diferentes retos, tienen una personalidad propia, y todo esto está relacionado con la cultura; por esto se pueden identificar los siguientes, dentro de los conceptos generales del clima organizacional. 
 
     TabsA.color-acento-contenido.mb-5
 
@@ -16,7 +16,7 @@
           .row
             .col-xl-6.mb-4
               figure
-              img(src='@/assets/tema6/img-1.svg')
+              img(src='@/assets/tema6/img-1.svg', alt='Imágen decorativa')
             .col-xl-6
               p Es todo lo que impulsa a un colaborador a realizar sus tareas de la mejor forma. Esta motivación puede ser tanto interna como externa.
 
@@ -26,7 +26,7 @@
           .row
             .col-xl-6.mb-4
               figure
-              img(src='@/assets/tema6/img-2.svg')
+              img(src='@/assets/tema6/img-2.svg', alt='Imágen decorativa')
             .col-xl-6
               p Se refiere a los factores físicos, comportamentales, motivacionales y organizacionales, que hacen que un ambiente de trabajo sea cómodo y agradable para los colaboradores de una organización. 
         
@@ -35,7 +35,7 @@
           .row
             .col-xl-6.mb-4
               figure
-              img(src='@/assets/tema6/img-3.svg')
+              img(src='@/assets/tema6/img-3.svg', alt='Imágen decorativa')
             .col-xl-6
               p Comprende el patrón general de conductas, creencias y valores compartidos por los miembros de una organización. Entre sus elementos se encuentran:
               ul.lista-ul--color.px-5.fa-ul2
@@ -70,47 +70,49 @@
 
     separador
 
-    #t_6_1.titulo-segundo.color-acento-contenido
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.1 Mecanismos de estímulo al colaborador
-    p.mb-5 Un colaborador es un ser biopsicosocial; por lo tanto, su salud, bienestar y felicidad, hacen parte integral de la vida en el entorno laboral.       
+    p.mb-5(data-aos="fade-left") Un colaborador es un ser biopsicosocial; por lo tanto, su salud, bienestar y felicidad, hacen parte integral de la vida en el entorno laboral.       
     .row.justify-content-around.align-items-center
       .col-11.justify-content-around.align-items-center
-        .bloque-texto-a.color-primario.b.p-4.p-md-3.mb-5.fond5  
+        .bloque-texto-a.color-primario.b.p-4.p-md-3.mb-5.fond5(data-aos="flip-up") 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-3 
               figure
-                img.img-150.img-c(src='@/assets/tema5/img-1.svg')          
+                img.img-150.img-c(src='@/assets/tema5/img-1.svg', alt='Imágen decorativa')          
             .col-lg-9.mb-4.mb-lg-0
               .bloque-texto-a__texto.p-5
                 p ¿Sabías que la salud de un individuo es directamente proporcional a su actitud?
-        p.mb-5 Esto se debe a su espíritu de crecer y auto superarse del deseo sano para competir solidariamente, dar cumplimiento a las metas propuestas para su puesto de trabajo y desempeño a corto, mediano y largo plazo; la responsabilidad de una vida sana; aceptación de las frustraciones de la vida, de incluir y compartir; así como de defender firmemente sus valores y un objetivo para su vida. 
+        p.mb-5(data-aos="fade-right") Esto se debe a su espíritu de crecer y auto superarse del deseo sano para competir solidariamente, dar cumplimiento a las metas propuestas para su puesto de trabajo y desempeño a corto, mediano y largo plazo; la responsabilidad de una vida sana; aceptación de las frustraciones de la vida, de incluir y compartir; así como de defender firmemente sus valores y un objetivo para su vida. 
 
         .row.justify-content-around.align-items-center.mb-3
-          .cajon.color-secundario.p-4.mb-4.fond1.px-4
-            p Para que el ambiente laboral se convierta en fuente de salud, debe existir un clima que ofrezca confianza y favorezca la eliminación de sentimientos y actitudes negativas hacia la organización o algunos de sus miembros.
+          .cajon.color-secundario.p-4.mb-4.fond1.px-4(data-aos="flip-up")
+            p.mb-0 Para que el ambiente laboral se convierta en fuente de salud, debe existir un clima que ofrezca confianza y favorezca la eliminación de sentimientos y actitudes negativas hacia la organización o algunos de sus miembros.
 
       .row.justify-content-around.align-items-center.p-5 
         .col-lg.justify-content-md-center.align-self-center
-          p Un clima positivo favorece el cumplimiento de los objetivos generales que persigue la organización, a partir de la existencia de un mayor sentimiento de pertenencia hacia ella. Por el contrario, un clima negativo supone una falta de identificación con sus objetivos y metas, así como un deterioro del ambiente de trabajo, que ocasiona situaciones de conflicto, bajo rendimiento, ausencias e ineficacia.
-          p Una organización con una baja calidad de vida o un clima organizacional deficiente puede dañar la salud mental y física de su colectivo laboral. Estos factores de riesgos ambientales suelen provocar efectos a corto plazo, lo que afecta el comportamiento y esto se acompaña, generalmente, de cambios psicológicos, que constituyen una alerta. Cuando uno o más de los factores estresantes se mantienen activos, las respuestas, que al inicio pueden ser reversibles a corto plazo, pueden originar modificaciones más estables y menos reversibles de la salud mental, como el agotamiento, las psicosis o un trastorno depresivo mayor.
+          p(data-aos="fade-right") Un clima positivo favorece el cumplimiento de los objetivos generales que persigue la organización, a partir de la existencia de un mayor sentimiento de pertenencia hacia ella. Por el contrario, un clima negativo supone una falta de identificación con sus objetivos y metas, así como un deterioro del ambiente de trabajo, que ocasiona situaciones de conflicto, bajo rendimiento, ausencias e ineficacia.
+          
+          p(data-aos="fade-right") Una organización con una baja calidad de vida o un clima organizacional deficiente puede dañar la salud mental y física de su colectivo laboral. Estos factores de riesgos ambientales suelen provocar efectos a corto plazo, lo que afecta el comportamiento y esto se acompaña, generalmente, de cambios psicológicos, que constituyen una alerta. Cuando uno o más de los factores estresantes se mantienen activos, las respuestas, que al inicio pueden ser reversibles a corto plazo, pueden originar modificaciones más estables y menos reversibles de la salud mental, como el agotamiento, las psicosis o un trastorno depresivo mayor.
           
         .col-12.col-lg-auto.justify-content-md-center.mb-4  
           figure
-                img.img-c(src='@/assets/tema6/img-5.svg')  
+                img.img-c(src='@/assets/tema6/img-5.svg', alt='Imágen decorativa')  
 
 
     .row.justify-content-md-center.px-5.fond5
       p.m-5 Aquí entran dos temas importantes:
       .col-10    
         figure.p-5
-          img.img-c(src='@/assets/tema6/img-6-.svg')  
+          img.img-c(src='@/assets/tema6/img-6-.svg', alt='Imágen decorativa')  
 
 
     separador.mb-5
 
-    #t_6_2.titulo-segundo.color-acento-contenido
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.2 Ingeniería organizacional
-    p.mb-5 Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
+
+    p.mb-5(data-aos="fade-left") Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
     
     .row.justify-content-around.align-items-center.img-c
       .col-10.img-c
@@ -118,36 +120,35 @@
           h5 Figura 13.
           span Ingeniería organizacional
         figure.mb-5.img-500.img-c
-          img(src="@/assets/tema6/img-7-.svg")  
+          img(src="@/assets/tema6/img-7-.svg", alt='Figura 13. Muestra como se tiene la estructura de una ingeniería organizacional, donde primero se identifica el proceso, luego se revisa y se analiza, posteriormente se diseña como debe ser y por último se prueba e implementa el diseño de como debe ser.')  
 
         p.text-center.mb-5 Nota. SENA (2021).
 
     separador
 
-    #t_6_3.titulo-segundo.color-acento-contenido
-
-    h2 6.3 Portafolio de servicios
+    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 6.3 Portafolio de servicios
     
     .row.justify-content-around.mt-5
       .col-lg.justify-content-md-center      
-        p Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
+        p(data-aos="fade-left") Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
         figure.img-400
-          img(src="@/assets/tema6/img-8.svg")  
+          img(src="@/assets/tema6/img-8.svg", alt='Imágen decorativa')  
 
     separador
 
-    #t_6_4.titulo-segundo.color-acento-contenido
+    #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 6.4 Comunicación
 
-    h2 6.4 Comunicación
-    p La comunicación es un medio donde interactúan dos o más personas, realizando intercambio de ideas, información y sentimientos. Está conformada por un emisor y un receptor, donde el emisor transmite el mensaje y el receptor lo interpreta.
-    p Existe una serie de elementos que hacen posible este proceso:
+    p(data-aos="fade-right") La comunicación es un medio donde interactúan dos o más personas, realizando intercambio de ideas, información y sentimientos. Está conformada por un emisor y un receptor, donde el emisor transmite el mensaje y el receptor lo interpreta.
+    p(data-aos="fade-right") Existe una serie de elementos que hacen posible este proceso:
     .row.justify-content-around.align-items-center
       .col-9 
          ImagenInfografica.color-secundario.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/tema6/img-9-.svg')
+              img(src='@/assets/tema6/img-9-.svg', alt='Imágen decorativa')
              
 
           .tarjeta.color-acento-botones.fond14.p-3(x="12.7%" y="31.5%")
@@ -194,7 +195,7 @@
 
          
 
-    p.mb-5 Pero algunos de estos elementos tienen una barrera:
+    p.mb-5(data-aos="fade-left") Pero algunos de estos elementos tienen una barrera:
 
     .row.mb-5
       .contenedor__bbg5
@@ -212,12 +213,12 @@
 
               p #[strong Retroalimentación:] en este proceso, el receptor se transforma en emisor, lo que puede generar problemas de barrera, dados para el emisor.
 
-    p.mb-5 Existen diferentes tipos de comunicación:
+    p.mb-5(data-aos="fade-right") Existen diferentes tipos de comunicación:
     .row.col-10.img-c
     
-      .crd_02.mb-3
+      .crd_02.mb-3(data-aos="fade-left")
         .crd_02__icon
-          img(src="@/assets/tema6/img-12.svg", alt="alt").class          
+          img(src="@/assets/tema6/img-12.svg", alt='Imágen decorativa').class          
         .crd_02__txt
           p.mb-0 #[strong Verbal:] permite expresar y transmitir un mensaje de manera:
           
@@ -230,9 +231,9 @@
               p.mb-0 Escrita.
 
 
-      .crd_02.mb-5
+      .crd_02.mb-5(data-aos="fade-left")
         .crd_02__icon
-          img(src="@/assets/tema6/img-13.svg", alt="alt").class          
+          img(src="@/assets/tema6/img-13.svg", alt='Imágen decorativa').class          
         .crd_02__txt
           p.mb-0 #[strong No verbal:] no se emiten palabras o mensajes. Es esencialmente el lenguaje corporal donde intervienen:
           
@@ -249,11 +250,11 @@
               i.ii.fas.fa-atom  
               p.mb-0 La postura facial.
 
-    p.mb-5 Retornando al ámbito organizacional, donde la comunicación puede ser transferida de diversas maneras, dependiendo de las necesidades de la empresa, la rapidez requerida, las responsabilidades asignadas y los que se encuentren comprometidos en la decisión que se comunica. Estas formas de comunicación pueden ser:
+    p.mb-5(data-aos="fade-right") Retornando al ámbito organizacional, donde la comunicación puede ser transferida de diversas maneras, dependiendo de las necesidades de la empresa, la rapidez requerida, las responsabilidades asignadas y los que se encuentren comprometidos en la decisión que se comunica. Estas formas de comunicación pueden ser:
 
     SlyderB.mb-5(:datos="datosSlyder")
-    p Un tema importante para tratar es la comunicación asertiva, la cual impacta positiva o negativamente en nuestra relación con las demás personas, tanto a nivel personal, como profesional o laboral. Se trata, en general, de mantener una comunicación simultánea, entre el usuario y la empresa, donde prime el respeto y la armonía. Así se logra mejorar el ambiente laboral con los demás y con la institución.
-    p.mb-5.text-bold Los resultados de cualquier comunicación pueden ser:
+    p(data-aos="fade-right") Un tema importante para tratar es la comunicación asertiva, la cual impacta positiva o negativamente en nuestra relación con las demás personas, tanto a nivel personal, como profesional o laboral. Se trata, en general, de mantener una comunicación simultánea, entre el usuario y la empresa, donde prime el respeto y la armonía. Así se logra mejorar el ambiente laboral con los demás y con la institución.
+    p.mb-5.text-bold(data-aos="fade-left") Los resultados de cualquier comunicación pueden ser:
 
 
     .row.fond6.mb-5

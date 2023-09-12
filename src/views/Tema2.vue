@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 2
       h1 Organigrama
-    p El organigrama institucional permite a la organización tener una estructura establecida con todas las áreas que componen la entidad, teniendo en cuenta los requerimientos de: recursos humanos, niveles de centralización y descentralización, grados de decisión, autoridad otorgada y complejidad de las unidades. Para tener claridad frente a los aspectos generales del organigrama, se deben contemplar los siguientes aspectos:
+    p(data-aos="fade-left") El organigrama institucional permite a la organización tener una estructura establecida con todas las áreas que componen la entidad, teniendo en cuenta los requerimientos de: recursos humanos, niveles de centralización y descentralización, grados de decisión, autoridad otorgada y complejidad de las unidades. Para tener claridad frente a los aspectos generales del organigrama, se deben contemplar los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11.justify-content-md-center.p-5
@@ -15,29 +15,29 @@
           h5 Figura 10.
           span Organigrama
         figure.mb-3
-          img(src="@/assets/tema2/img-1.svg")         
+          img(src="@/assets/tema2/img-1.svg", alt='Figura 10. Muestra ejemplo del organigrama de una empresa donde se representa su estructura interna y los elementos esenciales de la misma.')         
 
         p.text-center Nota. SENA (2021).
 
-    p.text-bold Según el tipo de información, los organigramas se clasifican en:
+    p.text-bold(data-aos="fade-right") Según el tipo de información, los organigramas se clasifican en:
     .row.fond3.p-5.mb-5
       SlyderC.mb-5(:datos="datosSlyder")
-    p Los organigramas pueden tener diversas representaciones gráficas, lo que ayuda en la comprensión de los elementos que los componen. Acorde con esto, se pueden identificar por representación visual, los siguientes organigramas: 
+    p(data-aos="fade-right") Los organigramas pueden tener diversas representaciones gráficas, lo que ayuda en la comprensión de los elementos que los componen. Acorde con esto, se pueden identificar por representación visual, los siguientes organigramas: 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-morada")
       .row(titulo="Organigrama vertical")
         figure
-          img(src='@/assets/tema2/img-9.svg')
+          img(src='@/assets/tema2/img-9.svg', alt='Imagen de ejemplo de un organigrama vertical donde en la parte superior esta el nombre de la directora general y hacía abajo en ambos sentidos el nombre de los directores de áreas.')
           
 
       div(titulo="Organigrama horizontal")
         figure
-          img(src='@/assets/tema2/img-10.svg')
+          img(src='@/assets/tema2/img-10.svg', alt='Imagen que muestra la forma de un organigrama horizontal, que viene de izquierda a derecha en jerarquía, comenzando a mano izquierda con el nombre del director general y a mano derecha los directores de área.')
  
 
       div(titulo="Organigrama circular")
         figure
-          img(src='@/assets/tema2/img-11.svg')
+          img(src='@/assets/tema2/img-11.svg', alt='Imagen que expone la estructura del organigrama circular, que como su nombre lo indica viene en el centro el gerente general y a su alrededor en círculo los gerentes de área y en círculo final  los analistas, técnicos y supervisores.')
 
           
             

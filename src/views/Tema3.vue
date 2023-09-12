@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Mapa de procesos
-    p.mb-5 Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
+    p.mb-5(data-aos="fade-right") Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
 
 
     .row.justify-content-md-center
@@ -15,49 +15,49 @@
           h5 Figura 11.
           span Mapa de procesos
         figure.mb-5
-          img(src="@/assets/tema3/img-1.svg")     
+          img(src="@/assets/tema3/img-1.svg", alt='Figura 11. Muestra un mapa de procesos que tiene una entrada de insumos, luego las actividades planeadas y los recursos para hacerlas y finalmente la salida o el resultado del producto o servicio.')     
 
         p.text-center.mb-5 Nota. SENA (2021).
 
-    p Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
+    p(data-aos="fade-right") Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
     .row.fond3.mb-5
       .row.p-5 
         SlyderB(:datos="datosSlyder")
 
-    p.mx-5.mb-5 El mapa de procesos genera una utilidad o beneficio dentro de la organización que lo implemente; dentro de los beneficios más relevantes se encuentran:
+    p.mx-5.mb-5(data-aos="fade-right") El mapa de procesos genera una utilidad o beneficio dentro de la organización que lo implemente; dentro de los beneficios más relevantes se encuentran:
     .row.fond13.p-4.mb-5
       .col-3.px-4.r-r-2.align-self-center
         figure.img-80.img-c
-          img.mb-3(src="@/assets/tema3/img-5-1.svg")
+          img.mb-3(src="@/assets/tema3/img-5-1.svg", alt='Imágen decorativa')
         p.text-center.text-white 
           b Medición de resultados y rendimientos de la organización
       .col-3.px-4.r-r-2.img-c.align-self-center
         figure.img-60.img-c
-          img.img-60.mb-3(src="@/assets/tema3/img-5-2.svg")
+          img.img-60.mb-3(src="@/assets/tema3/img-5-2.svg", alt='Imágen decorativa')
         p.text-center.text-white 
           b Priorización de procesos para la mejora    
       .col-3.px-4.r-r-2.align-self-center
         figure.img-80.img-c
-          img.img-c.mb-3(src="@/assets/tema3/img-5-3.svg")
+          img.img-c.mb-3(src="@/assets/tema3/img-5-3.svg", alt='Imágen decorativa')
         p.text-center.text-white 
           b Integración de sistemas de atención 
       .col-3.px-4.align-self-center
         figure.img-80.img-c
-          img.img-c.mb-3(src="@/assets/tema3/img-5-4.svg")
+          img.img-c.mb-3(src="@/assets/tema3/img-5-4.svg", alt='Imágen decorativa')
         p.text-center.text-white 
           b Gestión del riesgo operacional
        
-    p Es importante tener presente lo siguiente:
+    p(data-aos="fade-right") Es importante tener presente lo siguiente:
 
-    .crd_01.mb-4
+    .crd_01.mb-4(data-aos="fade-left")
       .crd_01__icon
-        img(src="@/assets/tema3/img-6.svg", alt="alt").class          
+        img(src="@/assets/tema3/img-6.svg", alt='Imágen decorativa').class          
       .crd_01__txt
         p Dentro de la estructuración del mapa de procesos, se deben incluir los aspectos del <b>ciclo PHVA</b> (Planear, Hacer, Verificar y Actuar), el cual se estudiará en el tema siguiente. El proceso debe constituir siempre la unidad básica de acción dentro de la empresa, es decir, es el eje de toda la gestión y acciones en pro de la mejora continua y el alcance de los objetivos estratégicos. 
     
-    .crd_01
+    .crd_01(data-aos="fade-left")
       .crd_01__icon
-        img(src="@/assets/tema3/img-7.svg", alt="alt").class          
+        img(src="@/assets/tema3/img-7.svg", alt='Imágen decorativa').class          
       .crd_01__txt
         p El #[strong flujograma] se utiliza para representar de manera individual un proceso; en cambio, el mapa de procesos es una representación integral de todos los procesos. 
 

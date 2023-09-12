@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El mapa conceptual recoge el resumen de los temas abordados en el componente denominado: Direccionamiento estratégico que mediante el reconocmiento y la comprensión, permite a la organización a través de la misión, visión, y los objetivos brindar una información clara y concreta sobre el portafolio de servicios que posee.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
