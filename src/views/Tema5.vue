@@ -2,13 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Reglamento interno
-
-
-    .bloque-texto-a.color-primario.b.p-4.p-md-3.mb-5.fond5(data-aos="flip-down")
+    .bloque-texto-a.color-primario.b.p-4.p-md-3.mb-5.fond5(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3 
           figure
@@ -17,8 +15,7 @@
           .bloque-texto-a__texto.p-5
             p ¿Sabías que el reglamento interno es el conjunto de normas que determina las condiciones y reglas a seguir en el entorno empresarial y laboral?
     p(data-aos="fade-right") El fin último de este tipo de reglamentos, es procurar la paz, la seguridad y la solidaridad, condiciones necesarias para la dignidad humana en el proceso productivo empresarial. 
-    p(data-aos="fade-right") Los reglamentos internos, por lo general, incluyen los siguientes aspectos: 
-
+    p(data-aos="fade-right") Los reglamentos internos, por lo general, incluyen los siguientes aspectos:
     .row.fond6.mb-5
       .contenedor__bbg5
         .row.traslape1
@@ -51,7 +48,6 @@
                 li 
                   i.ii.fas.fa-atom
                   | Permisos.
-
         .row.traslape2.mb-5
           .col-lg-7.col-z1.f-right(data-aos="fade-left")
             img(src="@/assets/tema5/img-3.svg" alt="Mujer farmacéutica en dispensario de fármacos")
@@ -79,8 +75,6 @@
                 li 
                   i.ii.fas.fa-atom
                   | Procedimiento para la comprobación de faltas y normas para la aplicación de las sanciones disciplinarias.
-
-
         .row.traslape1
           .col-lg-7.col-z1.f-left(data-aos="fade-right")
             img(src="@/assets/tema5/img-4.svg" alt="Dispensario de fármacos")
@@ -102,28 +96,21 @@
                 li 
                   i.ii.fas.fa-atom
                   | Medidas preventivas y correctivas en situaciones de acoso laboral.
-
     p(data-aos="fade-right") Dentro de todo el contexto de control interno, es indispensable establecer los parámetros de acción dentro de un Manual de funciones. Este documento contiene la descripción de los diversos puestos de trabajo. Sus características son:
-
-
     .tarjeta.tarjeta--azul.p-4.mb-5.fond5
       SlyderA
         .row.m-5
             figure
               img(src='@/assets/tema5/img-5.svg', alt='Imágen decorativa')
-              
         div.m-5
           figure
               img(src='@/assets/tema5/img-6.svg', alt='Imágen decorativa')
-
         .row.m-5
             figure
               img(src='@/assets/tema5/img-7.svg', alt='Imágen decorativa')
-
     p(data-aos="fade-right") Y el contenido de un Manual de funciones es el siguiente:
-
     .row.justify-content-around.align-items-center.fond2.m-5.p-0 
-      .col-lg.justify-content-md-center.align-self-center.px-5.order-2.order-lg-1 
+      .col-lg-auto.justify-content-md-center.align-self-center.px-5.order-2.order-lg-1 
         ul.lista-ul--color.px-5
           li 
             i.ii.fas.fa-atom  
@@ -152,20 +139,15 @@
           li 
             i.ii.fas.fa-atom  
             | Relaciones del puesto.
-
       .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0.order-1.order-lg-2 
         figure
-              img(src='@/assets/tema5/img-8.svg', alt='Imágen decorativa')
-
+              img(src='@/assets/tema5/img-8.svg', style="width:350px",alt='Imágen decorativa').m-auto
     p(data-aos="fade-right") Ahora, las interacciones entre los puestos se clasifican de la siguiente forma:
-
     .row.justify-content-around.align-items-center.p-5  
       .col-12.col-lg-auto.justify-content-md-center.mb-4  
         figure
-          img(src='@/assets/tema5/img-9.svg', alt='Imágen decorativa')
+          img(src='@/assets/tema5/img-9.svg', style="width:350px" ,alt='Imágen decorativa').m-auto
       .col-lg.justify-content-md-center.align-self-center
-          
-        
         .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
@@ -173,7 +155,6 @@
           .crd_03__txt
             p.mb-0.lii #[strong Jerárquicas o de Mando]
             p Relación que se lleva a cabo entre el encargado de un puesto, con el líder de este, y su personal a cargo.
-                     
         .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
@@ -193,15 +174,6 @@
               h2.cc3 4         
           .crd_03__txt
             p.lii #[strong Requerimientos del puesto]
-
-                
-
-    
-
-                                              
-     
-
-
         
 </template>
 

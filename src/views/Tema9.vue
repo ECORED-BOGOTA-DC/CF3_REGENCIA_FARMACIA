@@ -2,76 +2,67 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 9
-      h1 Principios éticos y bioéticos en la prestación del servicio 
-
+      h1 Principios éticos y bioéticos en la prestación del servicio
     .row.justify-content-around.align-items-center.p-5  
       .col-lg.justify-content-md-center.align-self-center
-        p(data-aos="fade-rigth") Los principios y valores, derechos y obligaciones que sustentan las profesiones de la salud, son parte de una carrera solidaria que respeta la vida y la dignidad de toda persona, promueve el desarrollo de la existencia y seguridad física, psicológica, independientemente de edad, credo, sexo, raza, nacionalidad, idioma, cultura, estatus socioeconómico e ideología principal, gobernanza, y un medio ambiente sano, completo, desde el punto de vista genético, social, cultural y espiritual. La profesión del cuidador o la conducta de la persona que ejerce la profesión debe estar dentro del código de ética profesional y las normas generales que rigen a todos los ciudadanos según lo dispuesto por la Constitución y la ley. Además de los principios rectores establecidos en la Constitución Política, la confianza, la igualdad, el autocontrol, la fraternidad, la menor maldad, la no toxicidad, la integridad y la doble causa, son necesarias para las personas reales. 
+        p(data-aos="fade-right") Los principios y valores, derechos y obligaciones que sustentan las profesiones de la salud, son parte de una carrera solidaria que respeta la vida y la dignidad de toda persona, promueve el desarrollo de la existencia y seguridad física, psicológica, independientemente de edad, credo, sexo, raza, nacionalidad, idioma, cultura, estatus socioeconómico e ideología principal, gobernanza, y un medio ambiente sano, completo, desde el punto de vista genético, social, cultural y espiritual. La profesión del cuidador o la conducta de la persona que ejerce la profesión debe estar dentro del código de ética profesional y las normas generales que rigen a todos los ciudadanos según lo dispuesto por la Constitución y la ley. Además de los principios rectores establecidos en la Constitución Política, la confianza, la igualdad, el autocontrol, la fraternidad, la menor maldad, la no toxicidad, la integridad y la doble causa, son necesarias para las personas reales. 
       .col-12.col-lg-auto.justify-content-md-center.mb-4  
         figure(data-aos="fade-left")
           img(src='@/assets/tema9/img-1.svg', alt='Imágen decorativa')
-    
     p.mb-5(data-aos="fade-left") La siguiente tabla 3 presenta las características de los códigos de ética y bioética.
-
-
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-rigth")
       h5 Tabla 3.
       span Características del código de ética y bioética
-
-    .tabla-b.color-acento-contenido.mb-5
-      
-        table(alt="Expone las diversas características que hacen parte del código de ética y bioética.")
-          tr.tabla-b__header
-            td
-              strong      Códigos de ética y bioética
-            td
-              strong Características
-
-          tr
-            td
-              strong De veracidad
-            td
-              | El personal de salud debe decir siempre la verdad a los usuarios y a la organizaci&oacute;n.
-          tr
-            td
-              strong De igualdad
-            td
-              | Los servicios de salud se deben prestar de igual manera a todas las personas y con calidad.
-          tr
-            td
-              strong De autonom&iacute;a
-            td
-              | El personal de salud debe ejercer su capacidad para deliberar, decidir y actuar.
-          tr
-            td
-              strong De beneficencia
-            td
-              | Se debe hacer lo que conviene a cada ser humano, respetando sus caracter&iacute;sticas particulares.
-          tr
-            td
-              strong Del mal menor
-            td Se deber&aacute; elegir el menor mal, evitando transgredir el derecho a la integridad.
-          tr
-            td
-              strong De no maleficencia
-            td Se deben realizar los actos que, aunque no beneficien, puedan evitar da&ntilde;o. 
-          tr
-            td
-              strong De totalidad
-            td
-              | Se deben eliminar las partes de un individuo humano, siempre que sea necesario para su conservaci&oacute;n.
-          tr
-            td
-              strong De causa de doble efecto
-              br
-            td
-              | Es &eacute;ticamente aceptable realizar una acci&oacute;n en s&iacute; misma buena o indiferente, que tenga un efecto bueno y uno malo.
-
-    p(data-aos="fade-rigth") Dentro de los principios es importante tener en cuenta que humanizar los servicios de salud, significa individualizar la atención; es muy importante recordar que detrás de cada enfermedad hay un individuo que está viviendo su experiencia de una manera poco o nada agradable, y tiene que incorporarlo con su vida actual. La Cultura de Humanización de los servicios de salud, significa empatía y garantía de una atención integral durante la estancia hospitalaria o en cualquier momento de la atención en salud, con respeto, privacidad y dignidad hacia los usuarios, sus familias y colaboradores.
-
+    .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
+      table(alt="Expone las diversas características que hacen parte del código de ética y bioética.")
+        tr.tabla-b__header
+          td
+            strong      Códigos de ética y bioética
+          td
+            strong Características
+        tr
+          td
+            strong De veracidad
+          td
+            | El personal de salud debe decir siempre la verdad a los usuarios y a la organizaci&oacute;n.
+        tr
+          td
+            strong De igualdad
+          td
+            | Los servicios de salud se deben prestar de igual manera a todas las personas y con calidad.
+        tr
+          td
+            strong De autonom&iacute;a
+          td
+            | El personal de salud debe ejercer su capacidad para deliberar, decidir y actuar.
+        tr
+          td
+            strong De beneficencia
+          td
+            | Se debe hacer lo que conviene a cada ser humano, respetando sus caracter&iacute;sticas particulares.
+        tr
+          td
+            strong Del mal menor
+          td Se deber&aacute; elegir el menor mal, evitando transgredir el derecho a la integridad.
+        tr
+          td
+            strong De no maleficencia
+          td Se deben realizar los actos que, aunque no beneficien, puedan evitar da&ntilde;o. 
+        tr
+          td
+            strong De totalidad
+          td
+            | Se deben eliminar las partes de un individuo humano, siempre que sea necesario para su conservaci&oacute;n.
+        tr
+          td
+            strong De causa de doble efecto
+            br
+          td
+            | Es &eacute;ticamente aceptable realizar una acci&oacute;n en s&iacute; misma buena o indiferente, que tenga un efecto bueno y uno malo.
+    p(data-aos="fade-right") Dentro de los principios es importante tener en cuenta que humanizar los servicios de salud, significa individualizar la atención; es muy importante recordar que detrás de cada enfermedad hay un individuo que está viviendo su experiencia de una manera poco o nada agradable, y tiene que incorporarlo con su vida actual. La Cultura de Humanización de los servicios de salud, significa empatía y garantía de una atención integral durante la estancia hospitalaria o en cualquier momento de la atención en salud, con respeto, privacidad y dignidad hacia los usuarios, sus familias y colaboradores.
     .row.justify-content-around.align-items-center.p-5  
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
         figure(data-aos="fade-rigth")
@@ -89,16 +80,12 @@
                 i.fas.fa-quote-right.d-flex.justify-content-end.ii
               .bloque-texto-d__autor.mt-3 
                 .h5.mb-0 Oscar Wilde
-    
     .row.justify-content-around.align-items-center.p-5  
       h4.order-2.order-lg-1.mb-5(data-aos="fade-rigth") Recomendaciones: 
       .col-12.col-lg-auto.justify-content-md-center.mb-4.order-1.order-lg-2  
-
-        figure(data-aos="fade-rigth")
+        figure(data-aos="fade-right")
           img(src='@/assets/tema9/img-3.svg', alt='Imágen decorativa')
       .col-lg.justify-content-md-center.align-self-center.order-3
-
-        
         .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
@@ -117,17 +104,7 @@
               h2.cc3 3         
           .crd_03__txt
             p.mb-0.lii #[strong Elegancia:] la elegancia es sobria; hay que ir elegante sin llamar la atención. • La elegancia es pulcra; aseo en general, bien peinado, uñas limpias y cuidadas. • Ropa limpia, planchada, en buen estado, zapatos relucientes.
-
-
-    p(data-aos="fade-rigth") Adicional a estas recomendaciones, cada institución prestadora de servicios de salud realiza su propia propuesta para la presentación de sus colaboradores, como el uso de uniformes, tarjetas de presentación y demás protocolos que apoyen la estructura general de la imagen del personal o cliente interno. 
-
-
-
-
-
-
-
-
+    p(data-aos="fade-rigth") Adicional a estas recomendaciones, cada institución prestadora de servicios de salud realiza su propia propuesta para la presentación de sus colaboradores, como el uso de uniformes, tarjetas de presentación y demás protocolos que apoyen la estructura general de la imagen del personal o cliente interno.
 
 </template>
 
