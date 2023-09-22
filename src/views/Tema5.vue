@@ -99,13 +99,13 @@
     p(data-aos="fade-right") Dentro de todo el contexto de control interno, es indispensable establecer los parámetros de acción dentro de un Manual de funciones. Este documento contiene la descripción de los diversos puestos de trabajo. Sus características son:
     .tarjeta.tarjeta--azul.p-4.mb-5.fond5
       SlyderA
-        .row.m-5
+        .row.m-4
             figure
               img(src='@/assets/tema5/img-5.svg', alt='Imágen decorativa')
-        div.m-5
+        div.m-4
           figure
               img(src='@/assets/tema5/img-6.svg', alt='Imágen decorativa')
-        .row.m-5
+        .row.m-4
             figure
               img(src='@/assets/tema5/img-7.svg', alt='Imágen decorativa')
     p(data-aos="fade-right") Y el contenido de un Manual de funciones es el siguiente:
@@ -142,9 +142,9 @@
       .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0.order-1.order-lg-2 
         figure
               img(src='@/assets/tema5/img-8.svg', style="width:350px",alt='Imágen decorativa').m-auto
-    p(data-aos="fade-right") Ahora, las interacciones entre los puestos se clasifican de la siguiente forma:
-    .row.justify-content-around.align-items-center.p-5  
-      .col-12.col-lg-auto.justify-content-md-center.mb-4  
+    p(data-aos="fade-right").mb-5 Ahora, las interacciones entre los puestos se clasifican de la siguiente forma:
+    .row.justify-content-around.align-items-center 
+      .col-12.col-lg-auto.justify-content-md-center.mb-4
         figure
           img(src='@/assets/tema5/img-9.svg', style="width:350px" ,alt='Imágen decorativa').m-auto
       .col-lg.justify-content-md-center.align-self-center

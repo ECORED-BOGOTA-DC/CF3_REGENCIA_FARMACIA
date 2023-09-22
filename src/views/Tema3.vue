@@ -8,16 +8,15 @@
       h1 Mapa de procesos
     p.mb-5(data-aos="fade-right") Un #[strong proceso] se define como el conjunto de actividades que se unen a una serie de recursos para producir una transformación de los elementos de entrada, en elementos de salida o resultados, como se puede observar en la siguiente figura:
     .row.justify-content-md-center(data-aos="fade-left")
-      .col-10
+      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 11.
-          span Mapa de procesos
+          p.mb-0 #[b Figura 11]. Mapa de procesos
         figure.mb-5
           img(src="@/assets/tema3/img-1.svg", alt='Figura 11. Muestra un mapa de procesos que tiene una entrada de insumos, luego las actividades planeadas y los recursos para hacerlas y finalmente la salida o el resultado del producto o servicio.')     
         p.text-center.mb-5 Nota. SENA (2021).
     p(data-aos="fade-right").mb-5 Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
     .row.fond3.mb-5(data-aos="fade-down")
-      .row.p-5 
+      .col-12.p-4
         SlyderB(:datos="datosSlyder")
     p.mx-5.mb-5(data-aos="fade-right") El mapa de procesos genera una utilidad o beneficio dentro de la organización que lo implemente; dentro de los beneficios más relevantes se encuentran:
     .row.fond13.p-4.mb-5(data-aos="fade-left")

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Direccionamiento estratégico',
     descripcionCurso:
-      'Este componente formativo describe la ruta que deben seguir las empresas del sector salud, para lograr sus objetivos misionales y estratégicos; al mismo tiempo que se realizan revisiones periódicas para ajustar los procesos misionales de acuerdo con los cambios del entorno y al plan de gestión de la entidad.',
+      'Este componente formativo describe la ruta que deben seguir las empresas del sector salud, para lograr sus objetivos misionales y estratégicos; al mismo tiempo que se realizan revisiones periódicas para ajustar los procesos misionales de acuerdo con los cambios del entorno y el plan de gestión de la entidad.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -442,8 +442,7 @@ export default {
         },
         {
           nombre: 'Leyson Fabián Castaño Pérez',
-          cargo:
-            'Validación de recursos educativos digitales y vinculación al LMS',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

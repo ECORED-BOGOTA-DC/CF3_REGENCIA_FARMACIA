@@ -10,10 +10,9 @@
     p(data-aos="fade-left") Para manejar el conflicto se requiere de un buen liderazgo, el cual se constituye como un conjunto de habilidades gerenciales o grupales que un individuo tiene para influir en el comportamiento o conducta de una persona, o dentro de un grupo de trabajo en particular. Este equipo trabaja con entusiasmo para lograr metas u objetivos comunes.
     p(data-aos="fade-right") Una de las mayores contribuciones en el campo de la gestión estratégica en los últimos años, ha sido enfatizar la importancia del equipo directivo en el desarrollo de la estrategia y la eficacia o desempeño de una empresa. Las decisiones dentro de este incluyen acciones en la selección de diferentes alternativas para resolver un problema o para lograr las metas establecidas.
     .row.traslape3.align-items-center.mb-5(data-aos="fade-up")
-      .col-lg-3.ms-auto.p-0
+      .col-lg-3.ms-auto.p-0.d-none.d-lg-block
         img(src='@/assets/tema7/img-1.svg', alt='manos caras')
       .col-lg-4.p-5.fcp.fcp--mobile
-        .mt-3
         p Actualmente se están tomando decisiones, pero es importante entender que tendrán consecuencias en el futuro. La persona que asuma el poder de decisión debe contar con las siguientes características:
         ul.lista-ul--color.fa-ul2
           li.mb-0  
@@ -34,19 +33,19 @@
           li.mb-0  
             i.ii.fas.fa-atom  
             p.mb-0 Rapidez de decisión
-      .col-lg-3.me-auto.p-0
+      .col-lg-3.me-auto.p-0.d-none.d-lg-block
         img(src='@/assets/tema7/img-1-.svg', alt='gente')
     p(data-aos="fade-left") Dentro del liderazgo, es importante considerar el proceso de decisión, en el cual se busca solucionar un problema y/o lograr el objetivo organizacional, como lo muestra la siguiente figura.
-    .col-11.col-lg-auto.justify-content-md-center.px-5.my-5
-      .titulo-sexto.color-acento-contenido.mb-4
-        h5 Figura 14.
-        span Proceso de decisión
-      figure.mb-5(data-aos="fade-left")
-        img(src="@/assets/tema7/img-2.svg", alt='Figura 14. Explica el proceso de decisión, el cual busca la solución de un problema.')
-      p.text-center.mb-5 Nota. SENA (2021).
+    .row(data-aos="fade-left")
+      .col-lg-11.col-lg-auto.justify-content-md-center
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 #[b Figura 14]. Proceso de decisión
+        figure.mb-4
+          img(src="@/assets/tema7/img-2.svg", alt='Figura 14. Explica el proceso de decisión, el cual busca la solución de un problema.' style="width:1000px").m-auto
+        p.text-center Nota. SENA (2021).
     p(data-aos="fade-right") Con respecto al manejo y solución de conflictos, se direcciona la forma de manejar las inconformidades de los empleados o los usuarios, por medio de estrategias diseñadas desde la dirección general de la Institución para dar resolución a dichas diferencias, generando un ambiente agradable dentro del ámbito laboral o la prestación del servicio.
     .row.justify-content-around.align-items-center.p-5.fond8.mb-5 
-      .col-lg.justify-content-md-center.align-self-center(data-aos="fade-right")
+      .col-lg(data-aos="fade-right")
         p #[strong Evitar:]
         ul.lista-ul--color.fa-ul2
           li.mb-0  
@@ -81,21 +80,22 @@
           li.mb-0  
             i.fas.fa-atom  
             p Definir los problemas haciéndolos conscientes.
-      .col-12.col-lg-auto.justify-content-md-center
+      .col-lg-auto.d-none.d-lg-block
         figure(data-aos="fade-left")
           img(src="@/assets/tema7/img-3.svg", alt='Imágen decorativa')  
     p.mb-5(data-aos="fade-left") Podría establecerse que el conflicto, real o potencial, podrá presentarse bajo dos orígenes, tal como se observa a continuación en la figura 15.
-    .row.justify-content-around.flex-d.mb-5
+    .row.justify-content-around.flex-d.mb-4
       .col-lg-11
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 15.
-          span Origen tipos de conflictos
-      .col-5.fond2.esp.p-5(data-aos="fade-right")
-        .crd_03
-          .crd_03__icon
-            img(src="@/assets/tema7/img-4.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
-          .crd_03__txt
-            h3 Origen
+          p.mb-0 #[b Figura 15]. Origen tipos de conflictos
+      .col-lg-5.fond2.esp.p-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .row.justify-content-center
+          .col-auto.mb-4
+            .crd_03
+              .crd_03__icon
+                img(src="@/assets/tema7/img-4.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
+              .crd_03__txt
+                h3.mb-0 Origen
         p.text-bold.text-center Externo al hombre               
         ul.lista-ul--color
           li 
@@ -116,12 +116,14 @@
           li 
             i.ii.fas.fa-atom
             | Su manejo de relaciones interpersonales.
-      .col-5.fond2-2.esp.p-5(data-aos="fade-left") 
-        .crd_03.mb-0
-          .crd_03__icon
-            img(src="@/assets/tema7/img-4-.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
-          .crd_03__txt
-            h3 Característica
+      .col-lg-5.fond2-2.esp.p-5(data-aos="fade-left")
+        .row.justify-content-center
+          .col-auto.mb-4
+            .crd_03.mb-0
+              .crd_03__icon
+                img(src="@/assets/tema7/img-4-.svg", alt='Figura 15. Muestra los dos tipos de origen de un conflicto, esto es: El origen que es externo al hombre y sus características y el origen que es interno al hombre y sus características.').class          
+              .crd_03__txt
+                h3.mb-0 Característica
         p.text-bold.text-center Interno al hombre    
         ul.lista-ul--color.fa-ul2
           li 
@@ -141,45 +143,47 @@
             | Por la relevancia que le dan sentido de pertinencia.
     p.text-center.mb-5 Nota. SENA (2021).
     .row.justify-content-around.fond8
-      .row.col-10.justify-content-around.p-5.fond8
-        .col-lg.justify-content-md-center(data-aos="fade-right")
-          p La mejor manera de enfrentar los conflictos es:
-          ol.lista-ol--cuadro.fa-ul2
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 1
-              |      Reconocimiento.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 2
-              |      Definir el problema.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 3
-              |      Reconocer la responsabilidad.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 4
-              |      Deseo real de superarlo.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 5
-              |      Tolerancia al punto de vista del otro.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 6
-              |      Diseñar alternativas de solución y estar abiertos a innovaciones.
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 7
-              |      Elegir una solución en la que ganen todos. 
-            li
-              .lista-ol--cuadro__vineta.ll
-                span 8
-              |      Compromiso con la solución.
-        .col-12.col-lg-auto.justify-content-md-center(data-aos="fade-left")
-          figure.img-300
-            img(src="@/assets/tema7/img-5.svg", alt='Imágen decorativa')
+      .row.justify-content-around
+        .col-lg-10.p-5.fond8
+          .row
+            .col-lg.justify-content-md-center(data-aos="fade-right")
+              p La mejor manera de enfrentar los conflictos es:
+              ol.lista-ol--cuadro.fa-ul2
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 1
+                  |      Reconocimiento.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 2
+                  |      Definir el problema.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 3
+                  |      Reconocer la responsabilidad.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 4
+                  |      Deseo real de superarlo.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 5
+                  |      Tolerancia al punto de vista del otro.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 6
+                  |      Diseñar alternativas de solución y estar abiertos a innovaciones.
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 7
+                  |      Elegir una solución en la que ganen todos. 
+                li
+                  .lista-ol--cuadro__vineta.ll
+                    span 8
+                  |      Compromiso con la solución.
+            .col-12.col-lg-auto.justify-content-md-center(data-aos="fade-left")
+              figure
+                img(src="@/assets/tema7/img-5.svg", alt='Imágen decorativa' style="width:250px").m-auto
 
 </template>
 

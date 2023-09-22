@@ -8,16 +8,15 @@
       h1 Organigrama
     p(data-aos="fade-left") El organigrama institucional permite a la organización tener una estructura establecida con todas las áreas que componen la entidad, teniendo en cuenta los requerimientos de: recursos humanos, niveles de centralización y descentralización, grados de decisión, autoridad otorgada y complejidad de las unidades. Para tener claridad frente a los aspectos generales del organigrama, se deben contemplar los siguientes aspectos:
     .row.justify-content-center.align-items-center
-      .col-lg-11.justify-content-md-center.p-5
+      .col-lg-11.p-4(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10.
-          span Organigrama
-        figure.mb-3(data-aos="fade-left")
+          p.mb-0 #[b Figura 10]. Organigrama
+        figure.mb-3
           img(src="@/assets/tema2/img-1.svg", alt='Figura 10. Muestra ejemplo del organigrama de una empresa donde se representa su estructura interna y los elementos esenciales de la misma.')
         p.text-center Nota. SENA (2021).
     p.text-bold(data-aos="fade-right").mb-5 Según el tipo de información, los organigramas se clasifican en:
-    .row.fond3.p-5.mb-5(data-aos="fade-down")
-      SlyderC.mb-5(:datos="datosSlyder")
+    .row.fond3.p-4.mb-5(data-aos="fade-down")
+      SlyderC(:datos="datosSlyder")
     p(data-aos="fade-right").mb-5 Los organigramas pueden tener diversas representaciones gráficas, lo que ayuda en la comprensión de los elementos que los componen. Acorde con esto, se pueden identificar por representación visual, los siguientes organigramas:
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-morada")(data-aos="fade-right")
       .row(titulo="Organigrama vertical")

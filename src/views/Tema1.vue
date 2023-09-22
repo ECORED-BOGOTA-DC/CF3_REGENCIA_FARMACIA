@@ -13,14 +13,13 @@
           .cajon.color-secundario.p-4.mb-4.fond1(data-aos="flip-up")
             h4 Planeamiento (Planeación)
             p.mb-0 Generación de una idea, que lleva al establecimiento de un objetivo y, a través de este, a la conformación del proceso de planificación más operativo, utilizando para ello diversas estrategias.
-      .col-lg-6.justify-content-md-center(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left")
         figure
-          img(src="@/assets/tema1/img-1.svg", alt='Imágen decorativa')
+          img(src="@/assets/tema1/img-1.svg", alt='Imágen decorativa' style="width:550px")
     p(data-aos="fade-left") Dentro del proceso del planeamiento se cuenta con seis momentos clarísimos, que son los que se verán a continuación en la siguiente figura.
-    .col-11.col-lg-auto.justify-content-md-center.m-4.px-5
+    .col-lg-11.col-lg-auto.justify-content-md-center
       .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
-        h5 Figura 1.
-        span Momentos planeamiento
+        p.mb-0 #[b Figura 1]. Momentos planeamiento
       figure.mb-5(data-aos="fade-left")
         img(src="@/assets/tema1/img-2.svg", alt='Figura 1. Muestra los 6 momento del planeamiento que son:<br>La idea<br>Estructuración de los objetivos<br>Planificación de las acciones.<br>Uso de las debidas herramientas para hacer efectivo el proceso<br>Ejecución de las actividades planeadas.<br>Obtención del objetivo establecido')
       p.text-center.mb-5 Nota. SENA (2021).
@@ -28,8 +27,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-11    
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 2.
-          span Acciones estratégicas y acciones tácticas
+          p.mb-0 #[b Figura 2]. Acciones estratégicas y acciones tácticas
     .row.justify-content-around.mb-5
       .row.col-12.justify-content-around.mb-5
         .col-lg-5.fond11.p-5.mb-3.mx-0(data-aos="fade-right")
@@ -48,8 +46,7 @@
     .row.justify-content-center.align-items-center.my-4
       .col-lg-11    
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 3.
-          span Visión
+          p.mb-0 #[b Figura 3]. Visión
       .col-11.col-lg-auto.justify-content-md-center.px-5
         figure.mb-5(data-aos="fade-down")
           img(src="@/assets/tema1/img-4.svg", alt='Figura 3. describe el concepto de visión, ¿que es?<br>La vista al futuro<br>El lugar hacia donde la empresa fija sus objetivos<br> y para esto se deb saber ¿Como se formula?<br>Proyecta el futuro<br>Este futuro debe ser consecuente con la misión.<br>Dirigida al mercado objetivo<br>y realista.')
@@ -57,8 +54,7 @@
     p(data-aos="fade-left") Aunque la visión está enmarcada en el futuro, se debe tener presente que no se debe perder de vista la realidad de lo externo; es decir, puede tener una dosis de fantasía y ambición, pero nunca desligarse de las condiciones tecnológicas, económicas y sociales, que pueden influir en el desarrollo de la misma, así como en la figura se observa.
     .col-11.col-lg-auto.justify-content-md-center.px-5
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Figura 4.
-        span Misión
+        p.mb-0 #[b Figura 4]. Misión
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         figure.mb-4(data-aos="fade-left")
@@ -107,21 +103,19 @@
     p.my-4(data-aos="fade-left") Para una mayor comprensión en la definición y formulación de los #[strong objetivos estratégicos], se deben tener presentes tanto sus características, como las de los #[strong objetivos específicos]. A continuación, se presenta una comparación entre ellos.
     .col-11.col-lg-auto.justify-content-md-center.px-5
       .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-right")
-        h5 Figura 6.
-        span Características de los objetivos estratégicos y específicos
+        p.mb-0 #[b Figura 6]. Características de los objetivos estratégicos y específicos
       figure.mb-4(data-aos="fade-down")
-        img(src="@/assets/tema1/img-8.svg", alt='Figura 6. Se indican las características de los objetivos estratégicos que son:<br>Alcanzables<br>Fácil comprensión<br>Ligados a la línea del tiempo<br>Derivados de las estrategias de misión y visión.<br>Concretos<br>Deben poder convertirse en tareas u objetos específicos<br>Conducen a la misión.<br>Luego vienen las características de los objetivos específicos, que son:<br>Cuantificables<br>Deben poder medirse con indicadores, números y sistemas que permitan su verificación.<br>Deben ser limitados en tiempo.<br>Deben estar alineados con la estrategia<br>deben ser realistas y alcanzables con dosis de desafío.<br>Siempre deben tener un responsable.<br>Son el camino para alcanzar el objetivo general.')
+        img(src="@/assets/tema1/img-8.svg", alt='Figura 6. Se indican las características de los objetivos estratégicos que son:<br>Alcanzables<br>Fácil comprensión<br>Ligados a la línea del tiempo<br>Derivados de las estrategias de misión y visión.<br>Concretos<br>Deben poder convertirse en tareas u objetos específicos<br>Conducen a la misión.<br>Luego vienen las características de los objetivos específicos, que son:<br>Cuantificables<br>Deben poder medirse con indicadores, números y sistemas que permitan su verificación.<br>Deben ser limitados en tiempo.<br>Deben estar alineados con la estrategia<br>deben ser realistas y alcanzables con dosis de desafío.<br>Siempre deben tener un responsable.<br>Son el camino para alcanzar el objetivo general.' style="width:800px").m-auto
       p.text-center.mb-5 Nota. SENA (2021).
     p(data-aos="fade-left") Ahora se puede observar una descripción gráfica de los objetivos estratégicos y específicos en el marco de la misión y de la visión:
-    .row.justify-content-around.align-items-center.p-5.fond3.m-0.mb-5
-      .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-right")
-        h5 Figura 7.
-        span Estructura gráfica de los objetivos
-      .col-12.col-lg-auto.justify-content-md-center.mb-3(data-aos="fade-right")
-        figure.mb-5
+    .row.justify-content-around.align-items-center.p-4.fond3.mb-4
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+        p.mb-0 #[b Figura 7]. Estructura gráfica de los objetivos
+      .col-12.col-lg-auto.mb-4(data-aos="fade-right")
+        figure.mb-3
           img(src="@/assets/tema1/img-9.svg", alt='Figura 7. Es la imagen de una pirámide que muestra la estructura de los objetivos  que si se lee de manera ascendente dentro de la pirámide sería:<br>Objetivos específicos<br>Objetivos estratégicos y en la punta de la pirámide se encuentra la misión y la visión.')
-        p.text-center.mb-5 Nota. SENA (2021).
-      .col-lg.justify-content-md-center.align-self-center(data-aos="fade-left")
+        p.text-center.mb-0 Nota. SENA (2021).
+      .col-lg(data-aos="fade-left")
         p Para seguir el orden lógico propuesto en pro de alcanzar la visión y la misión, es necesario contar con los #[strong principios], #[strong valores] y #[strong políticas] que le darán sentido a la ejecución de las actividades y serán el norte para el comportamiento y las acciones éticas de la organización. En este sentido, a continuación en la tabla 1, se hará una descripción global de las mismas y la sinergia entre ellas, para ayudar en la comprensión y articulación con los conceptos de misión y visión.
     .row.justify-content-center.align-items-center.mb-3
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -199,21 +193,19 @@
     .row.justify-content-center.align-items-center.fond4.mb-5
       .col-11
         .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-right")
-          h5 Figura 8.
-          span Ejemplo de política general
+          p.mb-0 #[b Figura 8]. Ejemplo de política general
       .col-11.col-lg-auto.justify-content-md-center.px-5
         figure.mb-5(data-aos="fade-right")
           img(src="@/assets/tema1/img-10-.svg", alt='Figura 8. Imagen que muestra el ejemplo de la política general de una empresa y se lee en el ejemplo:<br>Recursos humanos<br>Finanzas<br>Compras<br>Manufactura<br>Logística<br>Tecnología<br>y ventas.')
         p.text-center.mb-5 Nota. SENA (2021).
     p(data-aos="fade-left") En el contexto general de la plataforma estratégica, se han podido visualizar todas las líneas que la componen y la interacción entre ellas. Para resumir esta sesión de plataforma estratégica, realizar una lectura del siguiente diagrama, en donde se detalla la conexión entre todos los elementos anteriormente vistos.
-    p.text-small.r-n 
-    .col-11.col-lg-auto.justify-content-md-center.px-5
-      .titulo-sexto.color-acento-contenido.my-5(data-aos="fade-right")
-        h5 Figura 9.
-        span Articulación de la plataforma estratégica
-      figure.mb-5(data-aos="fade-left")
-        img(src="@/assets/tema1/img-11.svg", alt='Figura 9. La imagen muestra la articulación de una plataforma estratégica donde esta la misión, la visión, los objetivos estratégicos y específicos y todo esto confluye en las políticas principios y valores de una organización.')
-      p.text-center.mb-5 Nota. SENA (2021).
+    .row.justify-content-center
+      .col-lg-11
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          p.mb-0 #[b Figura 9]. Articulación de la plataforma estratégica
+        figure.mb-5(data-aos="fade-left")
+          img(src="@/assets/tema1/img-11.svg", alt='Figura 9. La imagen muestra la articulación de una plataforma estratégica donde esta la misión, la visión, los objetivos estratégicos y específicos y todo esto confluye en las políticas principios y valores de una organización.' style="width: 900px").m-auto
+        p.text-center.mb-0 Nota. SENA (2021).
 
 </template>
 

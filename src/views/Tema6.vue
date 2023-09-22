@@ -10,54 +10,54 @@
     TabsA.color-acento-contenido(data-aos="fade-left")
         .tarjeta.color-acento-botones--borde.p-4.bor-z(titulo="Motivación")
           h4 Motivación
-          .row
-            .col-xl-6.mb-4
+          .row.align-items-center
+            .col-xl-6.mb-4.mb-lg-0
               figure
-              img(src='@/assets/tema6/img-1.svg', alt='Imágen decorativa')
+                img(src='@/assets/tema6/img-1.svg', alt='Imágen decorativa' style="width:350px").m-auto
             .col-xl-6
               p Es todo lo que impulsa a un colaborador a realizar sus tareas de la mejor forma. Esta motivación puede ser tanto interna como externa.
         .tarjeta.color-acento-botones--borde.p-4.bor-z(titulo="Clima organizacional")
           h4 Clima organizacional
-          .row
-            .col-xl-6.mb-4
+          .row.align-items-center
+            .col-xl-6.mb-4.mb-lg-0
               figure
-              img(src='@/assets/tema6/img-2.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema6/img-2.svg', alt='Imágen decorativa' style="width:350px").m-auto
             .col-xl-6
               p Se refiere a los factores físicos, comportamentales, motivacionales y organizacionales, que hacen que un ambiente de trabajo sea cómodo y agradable para los colaboradores de una organización.
         .tarjeta.color-acento-botones--borde.p-4.bor-z(titulo="Cultura organizacional")
           h4 Cultura organizacional
-          .row
-            .col-xl-6.mb-4
+          .row.align-items-center
+            .col-xl-auto.mb-4.mb-lg-0
               figure
-              img(src='@/assets/tema6/img-3.svg', alt='Imágen decorativa')
-            .col-xl-6
+              img(src='@/assets/tema6/img-3.svg', alt='Imágen decorativa' style="width:300px").m-auto
+            .col-xl
               p Comprende el patrón general de conductas, creencias y valores compartidos por los miembros de una organización. Entre sus elementos se encuentran:
-              ul.lista-ul--color.px-5.fa-ul2
-                li.mb-0  
+              ul.lista-ul--color.ms-2
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Mayor identificación de los colaboradores con la empresa y su cargo.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Trabajo colaborativo.
-                li.mb-0  
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Integración de los procesos.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Promover el autocontrol y no la vigilancia hacia el colaborador.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Fomentar la innovación y creatividad.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Recompensar por méritos y no favoritismos.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Tolerancia al conflicto.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | La gerencia prioriza los fines o los medios para llegar a ellos.
-                li.mb-0   
+                li.d-flex
                   i.ii.fas.fa-atom  
                   | Enfoque de la gerencia hacia los asuntos internos o externos.
     separador
@@ -78,39 +78,38 @@
         .row.justify-content-around.align-items-center.mb-3
           .cajon.color-secundario.p-4.mb-4.fond1.px-4(data-aos="fade-down")
             p.mb-0 Para que el ambiente laboral se convierta en fuente de salud, debe existir un clima que ofrezca confianza y favorezca la eliminación de sentimientos y actitudes negativas hacia la organización o algunos de sus miembros.
-      .row.justify-content-around.align-items-center.p-5 
+      .row.justify-content-around.align-items-center
         .col-lg.justify-content-md-center.align-self-center(data-aos="fade-right")
           p(data-aos="fade-right") Un clima positivo favorece el cumplimiento de los objetivos generales que persigue la organización, a partir de la existencia de un mayor sentimiento de pertenencia hacia ella. Por el contrario, un clima negativo supone una falta de identificación con sus objetivos y metas, así como un deterioro del ambiente de trabajo, que ocasiona situaciones de conflicto, bajo rendimiento, ausencias e ineficacia.
           p(data-aos="fade-right") Una organización con una baja calidad de vida o un clima organizacional deficiente puede dañar la salud mental y física de su colectivo laboral. Estos factores de riesgos ambientales suelen provocar efectos a corto plazo, lo que afecta el comportamiento y esto se acompaña, generalmente, de cambios psicológicos, que constituyen una alerta. Cuando uno o más de los factores estresantes se mantienen activos, las respuestas, que al inicio pueden ser reversibles a corto plazo, pueden originar modificaciones más estables y menos reversibles de la salud mental, como el agotamiento, las psicosis o un trastorno depresivo mayor.
         .col-12.col-lg-auto.justify-content-md-center.mb-4(data-aos="fade-left")
           figure
-            img.img-c(src='@/assets/tema6/img-5.svg', alt='Imágen decorativa')
-    .row.justify-content-md-center.px-5.fond5
-      p.m-5 Aquí entran dos temas importantes:
-      .col-10    
-        figure.p-5(data-aos="fade-left")
-          img.img-c(src='@/assets/tema6/img-6-.svg', alt='Imágen decorativa')
+            img.img-c(src='@/assets/tema6/img-5.svg', alt='Imágen decorativa' style="width:450px")
+    .row.fond5
+      .col-12.p-4
+        p.mb-5 Aquí entran dos temas importantes:
+        figure(data-aos="fade-left")
+          img.img-c(src='@/assets/tema6/img-6-.svg', alt='Imágen decorativa' style="width:800px")
     separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.2 Ingeniería organizacional
-    p.mb-5(data-aos="fade-left") Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
+    p.mb-4(data-aos="fade-left") Es el proceso de observar cómo se gestionan los negocios de una empresa en todos los niveles, buscar formas de mejorar las cosas, aumentar las ventas, el rendimiento y las ganancias, y prepararse para los futuros desafíos. Así se puede observar en la siguiente figura.
     .row.justify-content-around.align-items-center.img-c
-      .col-10.img-c
+      .col-12.img-c
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 13.
-          span Ingeniería organizacional
-        figure.mb-5.img-500.img-c(data-aos="fade-left")
+          p.mb-0 #[b Figura 13]. Ingeniería organizacional
+        figure.mb-4.img-500.img-c(data-aos="fade-left")
           img(src="@/assets/tema6/img-7-.svg", alt='Figura 13. Muestra como se tiene la estructura de una ingeniería organizacional, donde primero se identifica el proceso, luego se revisa y se analiza, posteriormente se diseña como debe ser y por último se prueba e implementa el diseño de como debe ser.')
         p.text-center Nota. SENA (2021).
     separador
     #t_6_3.titulo-segundo.color-acento-contenido
       h2 6.3 Portafolio de servicios
-    .row.justify-content-around.mt-5
-      .col-lg.justify-content-md-center(data-aos="fade-right")   
+    .row.justify-content-around
+      .col-lg.mb-4.mb-lg-0(data-aos="fade-right")   
         p(data-aos="fade-left") Es el documento o presentación donde una empresa expone su oferta comercial. Puede dirigirse a potenciales clientes, posibles socios comerciales, proveedores, etc. En los servicios farmacéuticos, es muy importante que el portafolio de servicios describa los procesos y procedimientos que se ofertan, con veracidad para el cumplimiento de la promesa de valor al cliente y, este, debe contener los registros sanitarios y permisos del ente territorial vigentes.
-      .col-12.col-lg-auto.justify-content-md-center(data-aos="fade-left")
-        figure.img-400
-          img(src="@/assets/tema6/img-8.svg", alt='Imágen decorativa')
+      .col-12.col-lg-auto(data-aos="fade-left")
+        figure
+          img(src="@/assets/tema6/img-8.svg", alt='Imágen decorativa' style="width:450px").m-auto
     separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 6.4 Comunicación
@@ -153,9 +152,9 @@
             .h5.mb-2.text-n Ruidos
             p.text-n Posibles interferencias que pueden distorsionar la emisión y la recepción del mensaje.
     p.mb-5(data-aos="fade-left") Pero algunos de estos elementos tienen una barrera:
-    .row.mb-5
+    .row.mb-0.mb-lg-5
       .contenedor__bbg5
-        .row.traslape2.mb-5
+        .row.traslape2
           .col-lg-7.col-z1.f-right(data-aos="fade-left")
             img(src="@/assets/tema6/img-11.svg" alt="Mujer farmacéutica en dispensario de fármacos")
           .col-lg-4_5.col-z2.f-left(data-aos="fade-right")

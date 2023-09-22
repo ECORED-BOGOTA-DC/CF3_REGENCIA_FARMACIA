@@ -39,8 +39,6 @@
     .row
       .col-12(data-aos="fade-left")
         p.mb-5 #[strong.span.square B] #[strong Según su comportamiento:]
-    .row.justify-content-center.align-items-center.mb-5
-      LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
     .row.mb-5
@@ -64,7 +62,7 @@
           figure
               img(src='@/assets/tema8/img-16.svg', alt='Imágen decorativa')
     p Para entender mejor su concepto, a continuación se listan los factores que intervienen en el servicio al cliente:
-    .col-md-10.img-c 
+    .col-lg-10.img-c 
       PasosA.color-acento-contenido.mb-5(tipo="n")
         .row(data-aos="fade-left")
           h3 Amabilidad
@@ -87,30 +85,31 @@
         .row(data-aos="fade-left")
           h3 Higiene
           p Por ejemplo, cuando se evidencian los baños de la institución siempre limpios, con todos sus implementos de higiene como jabón, papel, etc., pisos y sanitarios aseados.
-    .row.justify-content-center.mb-5.fond2.align-self-center.mx-3
+    .row.justify-content-center.mb-5.fond2.align-self-center
       .col-lg-5.p-4(data-aos="fade-right")
           img(src="@/assets/tema8/img-17.svg",style="width:350px" ,alt='Imágen decorativa').m-auto
       .col-lg-7.align-self-center.p-4(data-aos="fade-left")
-          p.mb-0.mx-5
+          p.mb-0
             b El buen servicio al cliente debe estar presente en todos los servicios que solicite el usuario. Debe prevalecer la interacción con el usuario, desde el saludo hasta el final de la atención del paciente y su posterior egreso. Para esto es necesario capacitar y motivar permanentemente, no solo al personal que está en contacto con el usuario sino en general a todo el talento humano de la institución, para la prestación de un servicio con calidad.-lg
-    .row.col-8.img-c.mb-5 
-      .row.align-items-center.my-5
-        .col-7
-          p.mb-4(data-aos="fade-up") En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta:
-          ul.lista-ul--color
-            li(data-aos="fade-up")
-              i.ii.fas.fa-atom  
-              | Atributos del buen servicio. 
-            li(data-aos="fade-up")
-              i.ii.fas.fa-atom  
-              | Actitud.
-            li(data-aos="fade-up") 
-              i.ii.fas.fa-atom  
-              | Atención a personas alteradas
-        .col-5.img-c
-          figure(data-aos="fade-left")
-            img(src='@/assets/tema8/img-18.svg', alt='Imágen decorativa')
-    .row.justify-content-around.align-items-center.mb-5
+    .row.img-c.mb-5
+      .col-12
+        .row.align-items-center
+          .col-lg-7
+            p.mb-4(data-aos="fade-up") En el protocolo de atención al ciudadano sector salud del Ministerio de Salud y Protección Social, es muy importante tener en cuenta:
+            ul.lista-ul--color
+              li(data-aos="fade-up")
+                i.ii.fas.fa-atom  
+                | Atributos del buen servicio. 
+              li(data-aos="fade-up")
+                i.ii.fas.fa-atom  
+                | Actitud.
+              li(data-aos="fade-up") 
+                i.ii.fas.fa-atom  
+                | Atención a personas alteradas
+          .col-lg-5.img-c
+            figure(data-aos="fade-left")
+              img(src='@/assets/tema8/img-18.svg', alt='Imágen decorativa' style="width:350px").m-auto
+    .row.justify-content-around.align-items-center
       .col-lg-10.justify-content-md-center.align-self-center
         .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra
           .row.justify-content-around.align-items-center
@@ -125,8 +124,8 @@
                   a.boton.bb(:href="obtenerLink('/downloads/protocolo-atencion-ciudadano-sector-salud.pdf')" target="_blank")
                     span.px-4 Descargar  
                     i.fas.fa-file-download
-    .row.mb-5
-      .row.traslape2.mb-5
+    .row.mb-0.mb-lg-5
+      .row.traslape2
           .col-lg-7.col-z1.f-right(data-aos="fade-left")
             img(src="@/assets/tema8/img-20.svg" alt="Mujer farmacéutica en dispensario de fármacos")
           .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
@@ -146,23 +145,20 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 17.
-          span Ciclo de servicio
-    .row.col-10.img-c
-      .row.justify-content-around.align-items-center 
-        .col-12.col-lg-auto.justify-content-md-center.mb-4.mx-3  
-          figure.mb-3
-            img.img-400(src="@/assets/tema8/img-21.svg", alt='Figura 17. Muestra el ciclo de servicio que contiene 5 aspectos que son:<br>1. Identificación de los momentos de verdad.<br>2. Requerimientos de clientes.<br>3. Planes de acción enfocados a la atención y solución de casos detectados.<br>4. Priorización de áreas.<br>5. Evaluación de la satisfacción del cliente.')  
-          p.text-center.mb-5 Nota. SENA (2021).
-        .col-lg.justify-content-md-center.align-self-center
-          .cajon.color-secundario.p-4.mb-4.fond1.py-5(data-aos="flip-left")            
-              p.mb-0 #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
+          p.mb-0 #[b Figura 17]. Ciclo de servicio
+    .row
+      .col-lg-10.img-c  
+        figure.mb-3
+          img(src="@/assets/tema8/img-21.svg", alt='Figura 17. Muestra el ciclo de servicio que contiene 5 aspectos que son:<br>1. Identificación de los momentos de verdad.<br>2. Requerimientos de clientes.<br>3. Planes de acción enfocados a la atención y solución de casos detectados.<br>4. Priorización de áreas.<br>5. Evaluación de la satisfacción del cliente.' style="width:600px").m-auto
+        p.text-center.mb-5 Nota. SENA (2021).
+      .col-12.justify-content-md-center.align-self-center
+        .cajon.color-secundario.p-4.mb-4.fond1.py-5(data-aos="flip-left")            
+          p.mb-0 #[strong Tenga en cuenta:] momento de verdad es el momento exacto en el que un cliente contacta con nuestro servicio y se forma una opinión sobre la calidad del servicio, basado en este contacto. El momento de la verdad se puede revelar no solo directamente, sino también a través de todos los canales, como la comunicación técnica y la comunicación informal.
         p(data-aos="fade-left") Existen unos síntomas y signos que muestran que la estructura de servicio al cliente tiene falencias. Estos son, ver tabla 2:
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-11
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 2.
-          span Síntomas y signos de mal servicio al cliente
+          p.mb-0 #[b Tabla 2]. Síntomas y signos de mal servicio al cliente
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")
         table(alt="Expone todos los síntomas y los signos de un mal servicio al cliente.")
           tr.tabla-b__header
@@ -319,10 +315,10 @@
         .col-10.cajon.color-secundario.p-4.mb-4.fond1.py-5.img-c(data-aos="flip-down")           
           p Se debe tener en cuenta #[strong que la satisfacción del cliente es muy importante para las instituciones médicas. Basado en su experiencia, se recomiendan los servicios de la organización a otros usuarios. También hay que decir que la satisfacción es una de las claves para incrementar la rentabilidad de una organización.]
     p(data-aos="fade-right") Actualmente, los usuarios utilizan diferentes unidades (EPS o sus operadores logísticos) y pueden elegir la unidad que mejor se adapte a su salud. Sin embargo, si tiene una experiencia de servicio satisfactoria, puede aumentar la cantidad de usuarios de EPS y empresas de logística y mejorar la calidad del servicio.
-    p(data-aos="fade-left") La satisfacción del cliente se logra con las siguientes actividades:
-    .row.justify-content-around.align-items-center.m-5.p-3.fond10.p-5
-      .col-lg.justify-content-md-center.align-self-center(data-aos="fade-right")
-        ul.lista-ul--color.px-5.fa-ul2
+    p(data-aos="fade-left").mb-5 La satisfacción del cliente se logra con las siguientes actividades:
+    .row.justify-content-around.align-items-center.fond10.p-4.mb-5
+      .col-lg(data-aos="fade-right")
+        ul.lista-ul--color.fa-ul2
           li 
             i.ii.fas.fa-atom  
             | Desarrollar un producto o servicio que satisfaga sus necesidades. 
@@ -353,12 +349,12 @@
           li 
             i.ii.fas.fa-atom  
             | Brindar a los clientes, beneficios cuestionables.
-      .col-12.col-lg-auto.justify-content-md-center.mb-4.p-0(data-aos="fade-left")
+      .col-lg-auto(data-aos="fade-left")
         figure
-          img(src='@/assets/tema8/img-22.svg', alt='Imágen decorativa')
-    p(data-aos="fade-right") Algunos instrumentos muy eficientes que se utilizan para conocer la satisfacción del cliente son:
+          img(src='@/assets/tema8/img-22.svg', alt='Imágen decorativa' style="width:450px").m-auto
+    p(data-aos="fade-right").mb-5 Algunos instrumentos muy eficientes que se utilizan para conocer la satisfacción del cliente son:
     .row.justify-content-around.align-items-center
-      .col-10
+      .col-lg-10
         .crd_02.mb-3(data-aos="fade-left")
           .crd_02__icon
             img(src="@/assets/tema8/img-23.svg", alt='Imágen decorativa').class          
@@ -381,24 +377,6 @@
 export default {
   name: 'Tema8',
   data: () => ({
-    datosLineaTiempoA: [
-      {
-        ano: '<img src="@/assets/componentes/ej-05.svg" />',
-        titulo: 'Período Paleolítico',
-        texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
-      },
-      {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Mesolítico',
-        texto:
-          'Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.',
-      },
-      {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Neolítico',
-        texto: 'Vestimenta de fibras animales y vegetales, pulseras de marfil.',
-      },
-    ],
     datosLineaTiempoB: [
       {
         texto:
