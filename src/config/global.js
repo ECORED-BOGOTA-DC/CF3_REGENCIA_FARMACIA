@@ -308,20 +308,13 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UQ4wuzF5eNY',
     },
-    {
-      tema: 'Principios éticos y bioéticos en la prestación del servicio',
-      referencia:
-        'El Juego Interior. (2017) <i>Proactivo vs Reactivo</i> [video]. Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=_DnY90zXLBk',
-    },
   ],
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          nombre: 'Claudia Patricía Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },

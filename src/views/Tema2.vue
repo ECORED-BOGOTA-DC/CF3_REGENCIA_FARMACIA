@@ -15,8 +15,43 @@
           img(src="@/assets/tema2/img-1.svg", alt='Figura 10. Muestra ejemplo del organigrama de una empresa donde se representa su estructura interna y los elementos esenciales de la misma.')
         p.text-center Nota. SENA (2021).
     p.text-bold(data-aos="fade-right").mb-5 Según el tipo de información, los organigramas se clasifican en:
-    .row.fond3.p-4.mb-5(data-aos="fade-down")
-      SlyderC(:datos="datosSlyder")
+    .row.fond3.p-3.p-lg-4.mb-5(data-aos="fade-down")
+      SlyderA(tipo="b")
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-2.svg", style="width:550px", alt='Imagen de un organigrama analítico.').m-auto
+            p.text-center.mb-0 #[b Analíticos:] muestran datos detallados y específicos de la organización.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-3.svg", style="width:750px", alt='Imagen que muestra la estructura de un organigrama informativo que tiene: Gerente, Presidente, Secretaria, Productos, Marketing, Recursos humanos, Finanzas.').m-auto
+            p.text-center.mb-0 #[b Informativos:] solo muestran la información más relevante.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-4.svg", style="width:750px", alt='Imagen que muestra la estructura de un organigrama formal, donde las áreas tienen gerentes existe presidente pero las decisiones se someten a aprobación de la junta directiva.').m-auto
+            p.text-center.mb-0 #[b Formales:] representan la parte formal de una empresa y requieren de aprobación previa.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-5.svg", style="width:750px", alt='Imagen de un tipo de organigrama informal, es decir su estructura tiene una dirección no hay gerentes por área, pero cada persona conoce sus funciones dentro del esquema.').m-auto
+            p.text-center.mb-0 #[b Informales:] no han sido aprobados por la empresa; sin embargo, cada integrante conoce sus funciones.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-6.svg", style="width:750px", alt='Organigrama de tipo jerárquico, sostiene un diseño piramidal donde se cuenta con gerente y direcciones de área como segunda instancia luego compras y diversos servicios y finalmente lo operativo.').m-auto
+            p.text-center.mb-0 #[b Jerárquico:] depende del poder o control dentro de la empresa (de mayor a menor), siguiendo un diseño piramidal.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-7.svg", style="width:750px", alt='Imagen que expone el tipo de organigrama matricial, que cuenta con jefes de áreas, directores de proyectos y los encargados de la ejecución de estos proyectos.').m-auto
+            p.text-center.mb-0 #[b Matricial:] empresas con más de un director, o más de un responsable por proyecto, o más de un superior por departamento o trabajador.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema2/img-8.svg", style="width:750px", alt='Imagen que expone un tipo de organigrama plano donde se cuenta con un director y trabajadores.').m-auto
+            p.text-center.mb-0 #[b Plano:] organigrama sin cargos de mandos intermedios, dos roles: directivos y empleados.
     p(data-aos="fade-right").mb-5 Los organigramas pueden tener diversas representaciones gráficas, lo que ayuda en la comprensión de los elementos que los componen. Acorde con esto, se pueden identificar por representación visual, los siguientes organigramas:
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-morada")(data-aos="fade-right")
       .row(titulo="Organigrama vertical")
@@ -34,45 +69,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    datosSlyder: [
-      {
-        texto:
-          '<strong>Analíticos:</strong> muestran datos detallados y específicos de la organización. ',
-        imagen: require('@/assets/tema2/img-2-.svg'),
-      },
-      {
-        texto:
-          '<strong>Informativos:</strong> solo muestran la información más relevante.',
-        imagen: require('@/assets/tema2/img-3-.svg'),
-      },
-      {
-        texto:
-          '<strong>Formales:</strong> representan la parte formal de una empresa y requieren de aprobación previa.',
-        imagen: require('@/assets/tema2/img-4.svg'),
-      },
-      {
-        texto:
-          '<strong>Informales:</strong> no han sido aprobados por la empresa; sin embargo, cada integrante conoce sus funciones.',
-        imagen: require('@/assets/tema2/img-5.svg'),
-      },
-      {
-        texto:
-          '<strong>Jerárquico:</strong> depende del poder o control dentro de la empresa (de mayor a menor), siguiendo un diseño piramidal. ',
-        imagen: require('@/assets/tema2/img-6.svg'),
-      },
-      {
-        texto:
-          '<strong>Matricial:</strong> empresas con más de un director, o más de un responsable por proyecto, o más de un superior por departamento o trabajador.',
-        imagen: require('@/assets/tema2/img-7.svg'),
-      },
-      {
-        texto:
-          '<strong>Plano:</strong> organigrama sin cargos de mandos intermedios, dos roles: directivos y empleados.',
-        imagen: require('@/assets/tema2/img-8-.svg'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

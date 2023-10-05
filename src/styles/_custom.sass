@@ -330,16 +330,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   transform: translate(-50%,-50%)    
 
 .slyder-a__bullets__item 
-    width: 0
-    height: 0
-    background-color: #fff
-    border-radius: 0
-    box-shadow: 0  
-    margin: 0 
-    cursor: pointer
-    opacity: 0.7
-    transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
-    border: 1px solid #D8ECFF
+  background-color: #F2EEFC
+  margin: 0 3px
+.slyder-a__bullets__item--active
+  background-color: #c3b7eb
 
 .linea-tiempo-a::before 
   background: $color-acento-contenido

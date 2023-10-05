@@ -101,13 +101,13 @@
       SlyderA
         .row.m-4
             figure
-              img(src='@/assets/tema5/img-5.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema5/img-5.svg', alt='Imagen que menciona las siguientes características del manual de funciones: Amplia descripción de cada puesto de trabajo y su relación con los demás puestos, de acuerdo con el organigrama de la empresa. Ubicación del puesto de trabajo dentro del organigrama oficial de la empresa. Descripción del seguimiento de los sistemas de gestión y definición clara de objetivos, de acuerdo con el cargo o puesto de trabajo.')
         div.m-4
           figure
-              img(src='@/assets/tema5/img-6.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema5/img-6.svg', alt='Imagen que menciona las siguientes características del manual de funciones: Descripción detallada de los puestos de trabajo dentro de la organización. Característica de la evaluación de desempeño del personal. Reducir la repetitividad en las actividades, funciones, tareas, responsabilidades.')
         .row.m-4
             figure
-              img(src='@/assets/tema5/img-7.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema5/img-7.svg', alt='Imagen que menciona las siguientes características del manual de funciones: Programación de planes de formación: inducción y reinducción. Procesos de selección del personal. Seguridad y salud en el trabajo con el detalle técnico del riesgo ocupacional y las medidas de prevención, documentadas por la organización y el sistema de gestión de seguridad y salud en el trabajo.')
     p(data-aos="fade-right") Y el contenido de un Manual de funciones es el siguiente:
     .row.justify-content-around.align-items-center.fond2.m-5.p-0 
       .col-lg-auto.justify-content-md-center.align-self-center.px-5.order-2.order-lg-1 

@@ -194,7 +194,22 @@
               i.ii.fas.fa-atom  
               p.mb-0 La postura facial.
     p.mb-5(data-aos="fade-right") Retornando al ámbito organizacional, donde la comunicación puede ser transferida de diversas maneras, dependiendo de las necesidades de la empresa, la rapidez requerida, las responsabilidades asignadas y los que se encuentren comprometidos en la decisión que se comunica. Estas formas de comunicación pueden ser:
-    SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-down")
+    .row.fond3.p-3.p-lg-4.mb-5(data-aos="fade-down")
+      SlyderA(tipo="b")
+        .row.justify-content-center.m-1
+          .col-lg-4.mb-3.mb-lg-0
+            p.mb-0 #[b Rueda]
+            p.mb-0 Un punto central emite a diferentes centros. Proporciona soluciones rápidas y eficientes.
+          .col-lg-7
+            figure
+              img(src="@/assets/tema6/img-14.svg", style="width:550px", alt='Imagen que muestra la forma de comunicación de la rueda.').m-auto
+        .row.justify-content-center.m-1
+          .col-lg-4.mb-3.mb-lg-0
+            p.mb-0 #[b Círculo]
+            p.mb-0 Se presenta entre los centros que se encuentran relacionados por alguna tarea en común. Se utiliza frente a tareas más complejas.
+          .col-lg-7
+            figure
+              img(src="@/assets/tema6/img-15.svg", style="width:550px", alt='Imagen que muestra el tipo de comunicación denominado círculo.').m-auto
     p(data-aos="fade-right") Un tema importante para tratar es la comunicación asertiva, la cual impacta positiva o negativamente en nuestra relación con las demás personas, tanto a nivel personal, como profesional o laboral. Se trata, en general, de mantener una comunicación simultánea, entre el usuario y la empresa, donde prime el respeto y la armonía. Así se logra mejorar el ambiente laboral con los demás y con la institución.
     p.mb-5.text-bold(data-aos="fade-left") Los resultados de cualquier comunicación pueden ser:
     .row.fond6
@@ -213,22 +228,7 @@
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'Rueda',
-        texto:
-          'Un punto central emite a diferentes centros. Proporciona soluciones rápidas y eficientes.',
-        imagen: require('@/assets/tema6/img-14-.svg'),
-      },
-      {
-        titulo: 'Círculo',
-        texto:
-          'Se presenta entre los centros que se encuentran relacionados por alguna tarea en común. Se utiliza frente a tareas más complejas.',
-        imagen: require('@/assets/tema6/img-15.svg'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

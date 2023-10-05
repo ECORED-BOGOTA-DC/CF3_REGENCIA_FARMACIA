@@ -134,61 +134,75 @@
             td
               p #[strong Definición ]
             td
-              p.text-bold Compromiso    con las partes interesadas, y debe ser divulgada e interiorizada por todos    los integrantes de la organización.
+              p Compromiso    con las partes interesadas, y debe ser divulgada e interiorizada por todos    los integrantes de la organización.
             td
-              p.text-bold Sistema de    leyes o normas universales que determinan lo correcto e incorrecto y, por lo    tanto, son la base de los valores humanos.
+              p Sistema de    leyes o normas universales que determinan lo correcto e incorrecto y, por lo    tanto, son la base de los valores humanos.
             td
-              p.text-bold Aptitud y    cualidad individual que define la conducta de un individuo en la sociedad,    respecto a lo que este define como correcto.
+              p Aptitud y    cualidad individual que define la conducta de un individuo en la sociedad,    respecto a lo que este define como correcto.
           tr
             td
               p #[strong Función]
             td
-              .ul 
-                li Contemplar las normas y responsabilidades de cada área de la organización.
-                li Complementar el logro de los objetivos.   
-                li Facilitar la implementación de estrategias.
+              ul.lista-ul
+                li.d-flex
+                  i.lista-ul__vineta
+                  | Contemplar las normas y responsabilidades de cada área de la organización.
+                li.d-flex
+                  i.lista-ul__vineta
+                  | Complementar el logro de los objetivos.
+                li.d-flex
+                  i.lista-ul__vineta
+                  | Facilitar la implementación de estrategias.
             td
-              p.text-bold Orientar la vida en sociedad; los principios son necesarios para obrar de manera correcta.
+              p Orientar la vida en sociedad; los principios son necesarios para obrar de manera correcta.
             td
-              p.text-bold  Guiar a los individuos a obrar correctamente de forma individual y colectiva.
+              p  Guiar a los individuos a obrar correctamente de forma individual y colectiva.
           tr
             td
               p #[strong Clasificación]
             td
-              .ul
-                li #[strong Políticas generales:]
-                  p relacionadas    con toda la organización.   Ejemplo: política de calidad, políticas de presupuesto.
-                li #[strong Políticas    específicas:]
-                  p aplican a unos procesos. Ejemplo: política de ventas, política de inventarios.  
+              ul.lista-ul
+                li.d-flex
+                  i.lista-ul__vineta
+                  |
+                  p.mb-0 #[b Políticas generales]: relacionadas con toda la organización. Ejemplo: política de calidad, políticas de presupuesto.
+                li.d-flex
+                  i.lista-ul__vineta
+                  |
+                  p.mb-0 #[b Políticas específicas]: aplican a unos procesos. Ejemplo: política de ventas, política de inventarios.
             td
-              p.text-bold Principio de libertad. Vida, Humanidad, bien. Igualdad, moralidad.
+              p.mb-0 Principio de libertad.
+              p.mb-0 Vida, Humanidad, bien.
+              p.mb-0 Igualdad, moralidad.
             td
-              .ul
-                li Valores éticos, morales.   
-                li Religiosos, cívicos, familiares. personales.   
+              ul.lista-ul
+                li.d-flex
+                  i.lista-ul__vineta
+                  | Valores éticos, morales.
+                li.d-flex
+                  i.lista-ul__vineta
+                  | Religiosos, cívicos, familiares y personales.
           tr
             td
               p #[strong Ejemplos]
             td
-              p #[strong Ejemplo de política general.]
+              p Ejemplo de política general.
             td
-              .ul 
-                li Vida
-                li Amor
-                li Libertad
-                li Paz
-                li Equidad
-                li Armonía
-                li Ser justo
+              p.mb-0 Vida
+              p.mb-0 Amor
+              p.mb-0 Libertad
+              p.mb-0 Paz
+              p.mb-0 Equidad
+              p.mb-0 Armonía
+              p.mb-0 Ser justo
             td
-              .ul
-                li Honestidad
-                li Respeto
-                li Responsabilidad
-                li Tolerancia
-                li Integridad
-                li Colaboración
-                li Lealtad
+              p.mb-0 Honestidad
+              p.mb-0 Respeto
+              p.mb-0 Responsabilidad
+              p.mb-0 Tolerancia
+              p.mb-0 Integridad
+              p.mb-0 Colaboración
+              p.mb-0 Lealtad
     p.text-center.mb-5 Nota. SENA (2021).
     .row.justify-content-center.align-items-center.fond4.mb-5
       .col-11

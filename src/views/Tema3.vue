@@ -15,9 +15,27 @@
           img(src="@/assets/tema3/img-1.svg", alt='Figura 11. Muestra un mapa de procesos que tiene una entrada de insumos, luego las actividades planeadas y los recursos para hacerlas y finalmente la salida o el resultado del producto o servicio.')     
         p.text-center.mb-5 Nota. SENA (2021).
     p(data-aos="fade-right").mb-5 Acorde con las características, los mapas de procesos se pueden clasificar de la siguiente manera:           
-    .row.fond3.mb-5(data-aos="fade-down")
-      .col-12.p-4
-        SlyderB(:datos="datosSlyder")
+    .row.fond3.p-3.p-lg-4.mb-5(data-aos="fade-down")
+      SlyderA(tipo="b")
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema3/img-2.svg", style="width:550px", alt='Imagen de un mapa de procesos convencional que tiene las necesidades del cliente, los procesos estratégicos, operativos y de soporte para dar solución o cubrir estas necesidades y lograr finalmente la satisfacción del cliente.').m-auto
+            p.mb-0 #[b Mapa de proceso convencional]
+            p.mb-0 Comprende los procesos estratégicos, procesos operativos y procesos auxiliares. Dentro de la distribución del mapa, los procesos estratégicos se ubican en la parte superior, los operativos en la parte media y los procesos auxiliares o de apoyo se ubican en la parte inferior.
+        .row.m-1
+          .col-12
+            figure.mb-3
+              img(src="@/assets/tema3/img-3.svg", style="width:550px", alt='Imagen que muestra la forma de un mapa de procesos formal que utiliza la clasificación sugerida por las normas ISO.').m-auto
+            p.mb-0 #[b Mapa de proceso formal]
+            p.mb-0 Este tipo de mapa surge al utilizar la clasificación de los procesos sugerida por las Normas ISO (procesos para las actividades de dirección, procesos para realizar los productos, procesos de provisión de recursos, procesos de medición, análisis y mejora).
+        .row.m-1
+          .col-lg-4.mb-3.mb-lg-0
+            figure
+              img(src="@/assets/tema3/img-4.svg", style="width:290px", alt='Imagen que muestra la forma de un mapa de proceso lineal.').m-auto
+          .col-lg-8
+            p.mb-0 #[b Mapa de proceso lineal]
+            p.mb-0 Para este tipo de mapas se utilizan las bases teóricas del diagrama de flujo para la representación global de los procesos de la organización. Despliega los procesos operativos como un diagrama de flujo.
     p.mx-5.mb-5(data-aos="fade-right") El mapa de procesos genera una utilidad o beneficio dentro de la organización que lo implemente; dentro de los beneficios más relevantes se encuentran:
     .row.fond13.p-4.mb-5(data-aos="fade-left")
       .col-3.px-4.r-r-2.align-self-center

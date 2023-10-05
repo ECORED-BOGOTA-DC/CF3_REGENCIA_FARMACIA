@@ -102,7 +102,7 @@
             .cc1.img-c
               h2.cc3 3         
           .crd_03__txt
-            p.mb-0.lii #[strong Elegancia:] la elegancia es sobria; hay que ir elegante sin llamar la atención. • La elegancia es pulcra; aseo en general, bien peinado, uñas limpias y cuidadas. • Ropa limpia, planchada, en buen estado, zapatos relucientes.
+            p.mb-0.lii #[strong Elegancia:] la elegancia es sobria; hay que ir elegante sin llamar la atención. La elegancia es pulcra; aseo en general, bien peinado, uñas limpias y cuidadas. Ropa limpia, planchada, en buen estado, zapatos relucientes.
     p(data-aos="fade-rigth").mb-0 Adicional a estas recomendaciones, cada institución prestadora de servicios de salud realiza su propia propuesta para la presentación de sus colaboradores, como el uso de uniformes, tarjetas de presentación y demás protocolos que apoyen la estructura general de la imagen del personal o cliente interno.
 
 </template>

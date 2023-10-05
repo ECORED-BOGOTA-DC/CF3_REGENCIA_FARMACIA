@@ -48,20 +48,20 @@
       SlyderA
         .row.p-5
           figure
-              img(src='@/assets/tema8/img-12.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema8/img-12.svg', alt='Clientes complacidos: se muestran satisfechos con la atención y la compra, por lo que suelen convertirse en clientes-embajadores.')
         div
           figure
-              img(src='@/assets/tema8/img-13.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema8/img-13.svg', alt='Clientes satisfechos: se muestran satisfechos con la atención y la compra, pero si en otra parte les ofrecen un precio más bajo, no dudan en comprar allí; son clientes que generan estar en búsqueda permanente de estrategias para fidelizarlos.')
         .row
           figure
-              img(src='@/assets/tema8/img-14.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema8/img-14.svg', alt='Clientes indiferentes: su postura es cambiante por lo que pueden cambiar de marca con mucha facilidad.')
         div
           figure
-              img(src='@/assets/tema8/img-15-.svg', alt='Imágen decorativa')
+              img(src='@/assets/tema8/img-15-.svg', alt='Clientes insatisfechos: son clientes que no quedan satisfechos, o con la atención o con el producto, por lo que rompen relaciones comerciales con el establecimiento.')
         div
           figure
-              img(src='@/assets/tema8/img-16.svg', alt='Imágen decorativa')
-    p Para entender mejor su concepto, a continuación se listan los factores que intervienen en el servicio al cliente:
+              img(src='@/assets/tema8/img-16.svg', alt='Clientes rehenes: son los clientes insatisfechos, pero que no se van porque no encuentran alternativas accesibles o porque no pueden.')
+    p Para entender mejor su concepto, a continuación, se listan los factores que intervienen en el servicio al cliente:
     .col-lg-10.img-c 
       PasosA.color-acento-contenido.mb-5(tipo="n")
         .row(data-aos="fade-left")
@@ -90,7 +90,7 @@
           img(src="@/assets/tema8/img-17.svg",style="width:350px" ,alt='Imágen decorativa').m-auto
       .col-lg-7.align-self-center.p-4(data-aos="fade-left")
           p.mb-0
-            b El buen servicio al cliente debe estar presente en todos los servicios que solicite el usuario. Debe prevalecer la interacción con el usuario, desde el saludo hasta el final de la atención del paciente y su posterior egreso. Para esto es necesario capacitar y motivar permanentemente, no solo al personal que está en contacto con el usuario sino en general a todo el talento humano de la institución, para la prestación de un servicio con calidad.-lg
+            b El buen servicio al cliente debe estar presente en todos los servicios que solicite el usuario. Debe prevalecer la interacción con el usuario, desde el saludo hasta el final de la atención del paciente y su posterior egreso. Para esto es necesario capacitar y motivar permanentemente, no solo al personal que está en contacto con el usuario sino en general a todo el talento humano de la institución, para la prestación de un servicio con calidad.
     .row.img-c.mb-5
       .col-12
         .row.align-items-center
@@ -109,21 +109,6 @@
           .col-lg-5.img-c
             figure(data-aos="fade-left")
               img(src='@/assets/tema8/img-18.svg', alt='Imágen decorativa' style="width:350px").m-auto
-    .row.justify-content-around.align-items-center
-      .col-lg-10.justify-content-md-center.align-self-center
-        .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/tema8/img-19.svg", alt='Imágen decorativa')
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.bb Protocolo de atención al ciudadano sector salud
-                  p.mb-1.texto-blanco Conoce el protocolo de atención establecido para el ciudadano, en el cual se especifican los enfoques para este.
-                .col-sm-auto
-                  a.boton.bb(:href="obtenerLink('/downloads/protocolo-atencion-ciudadano-sector-salud.pdf')" target="_blank")
-                    span.px-4 Descargar  
-                    i.fas.fa-file-download
     .row.mb-0.mb-lg-5
       .row.traslape2
           .col-lg-7.col-z1.f-right(data-aos="fade-left")
@@ -296,9 +281,6 @@
                 li 
                   i.ii.fas.fa-atom  
                   | No sabe cuáles son las actividades del proceso.
-                li 
-                  i.ii.fas.fa-atom  
-                  | No tiene ningún proceso que soporte el servicio al cliente.
                 li 
                   i.ii.fas.fa-atom  
                   | No tiene ningún proceso que soporte el servicio al cliente.

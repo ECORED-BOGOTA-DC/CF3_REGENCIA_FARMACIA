@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Fortalezas, Oportunidades, Debilidades y Amenazas (matriz FODA)
-    p(data-aos="fade-right") La matriz FODA o DOFA (Fortalezas, Oportunidades, Debilidades y Amenazas), es una importante herramienta de diagnóstico, que contribuye con la formulación de estrategias para intervenir la empresa. Las siglas provienen del acrónimo en inglés SWOT (Strenghts, Weaknesses, Opportunities, Threats).
+    p(data-aos="fade-right") La matriz FODA o DOFA (Fortalezas, Oportunidades, Debilidades y Amenazas), es una importante herramienta de diagnóstico, que contribuye con la formulación de estrategias para intervenir la empresa. Las siglas provienen del acrónimo en inglés “SWOT” (“Strenghts, Weaknesses, Opportunities, Threats”).
     p(data-aos="fade-right") Algunas de sus características son reconocibles en la siguiente figura:
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-11
